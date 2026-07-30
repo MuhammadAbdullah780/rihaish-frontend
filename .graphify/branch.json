@@ -5,12 +5,12 @@
   "upstream": null,
   "mergeBase": null,
   "firstSeenHead": "1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
-  "lastSeenHead": "1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+  "lastSeenHead": "6458873d7b7102c0b524d3cb574d8c854310ad62",
   "lastAnalyzedHead": "1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
-  "stale": false,
-  "staleReason": null,
-  "staleSince": null,
-  "lifecycleEvent": null,
+  "stale": true,
+  "staleReason": "post-commit",
+  "staleSince": "2026-07-30T23:09:17.431Z",
+  "lifecycleEvent": "post-commit",
   "createdAt": "2026-07-30T22:57:53.365Z",
-  "updatedAt": "2026-07-30T23:07:06.722Z"
+  "updatedAt": "2026-07-30T23:09:17.431Z"
 }

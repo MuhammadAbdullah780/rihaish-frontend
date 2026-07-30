@@ -8,12 +8,12 @@
     "hash": "239f3ebf717465dc636818a1a619398d"
   },
   "C:/Users/hp/Desktop/fyp-frontend/frontend/AGENTS.md": {
-    "mtime": 1785449005664.383,
-    "hash": "4dfbb1eeb3e130ad525bd4add810765c"
+    "mtime": 1785452909503.3794,
+    "hash": "9d18f952f4ac06df926bda633a7d31b5"
   },
   "C:/Users/hp/Desktop/fyp-frontend/frontend/CLAUDE.md": {
-    "mtime": 1785449005664.383,
-    "hash": "4dfbb1eeb3e130ad525bd4add810765c"
+    "mtime": 1785452909503.3794,
+    "hash": "9d18f952f4ac06df926bda633a7d31b5"
   },
   "C:/Users/hp/Desktop/fyp-frontend/frontend/README.md": {
     "mtime": 1785444689935.946,
@@ -38,5 +38,181 @@
   "C:/Users/hp/Desktop/fyp-frontend/frontend/public/window.svg": {
     "mtime": 1785444691094.3342,
     "hash": "a2760511c65806022ad20adf74370ff3"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/auth/code-sent/page.tsx": {
+    "mtime": 1785447578844.003,
+    "hash": "f8d834b4c313c15d440c7a2eb7da9c36"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/auth/forgot-password/page.tsx": {
+    "mtime": 1785447549297.3264,
+    "hash": "a6b1e973ad8341c415e65cabaa1c4a64"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/auth/layout.tsx": {
+    "mtime": 1785451102087.458,
+    "hash": "3fb1e52f08e8cfa17fc010b2f294d38b"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/auth/login/page.tsx": {
+    "mtime": 1785451354623.868,
+    "hash": "a14346d23d2c54a16159e293c2d6c616"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/auth/password-updated/page.tsx": {
+    "mtime": 1785447632464.3271,
+    "hash": "6b62587e852139f8f35eb37fd5b7e6ce"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/auth/reset-password/page.tsx": {
+    "mtime": 1785447619659.4756,
+    "hash": "4c38a45acfa1192229b56f6358f050ee"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/auth/signup/page.tsx": {
+    "mtime": 1785450404056.7053,
+    "hash": "c0c1ec80e20f2008a35e5356719bb15d"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/auth/verify/page.tsx": {
+    "mtime": 1785447591913.8452,
+    "hash": "8a4d8f5f7df58e52933e807c285dcada"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/auth/welcome/page.tsx": {
+    "mtime": 1785451353327.9294,
+    "hash": "7467be154a893c335f0bf6ab8c4885cd"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/layout.tsx": {
+    "mtime": 1785446072793.954,
+    "hash": "54e1b35912d85bc8329515566da0c3a6"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/app/(main)/page.tsx": {
+    "mtime": 1785445312389.571,
+    "hash": "990251ff909e1c373482f1025f82c71e"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/AuthCardShell.tsx": {
+    "mtime": 1785450374159.8286,
+    "hash": "4438dada21b20df4895c3e16758b2156"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/AuthRouteTransition.tsx": {
+    "mtime": 1785452282818.339,
+    "hash": "f4ab14ec44f5ada2e2d7e74f48c073fd"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/AuthSplitShell.tsx": {
+    "mtime": 1785450096284.0051,
+    "hash": "7f1765a24d86329c399a8d7f7e7d5117"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/AuthTopBar.tsx": {
+    "mtime": 1785447211567.9304,
+    "hash": "c1ac13ae5787d3475052b7ade14fe16e"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/BackLink.tsx": {
+    "mtime": 1785447222241.6084,
+    "hash": "edf76854b11bdade1d0f5b6b11f2092c"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/Button.tsx": {
+    "mtime": 1785447377976.7188,
+    "hash": "0185a8fb8a0162d328d9e87967d9439f"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/Card.tsx": {
+    "mtime": 1785450397730.477,
+    "hash": "ab9a16ae2c7db516b61cb6693f4652e5"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/Divider.tsx": {
+    "mtime": 1785447417111.0042,
+    "hash": "6f9ea7780d1adb215c426a32dc09a548"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/Icon.tsx": {
+    "mtime": 1785447178490.4507,
+    "hash": "c555c5c7e38c0ecbbd05be04dc61a7bc"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/IconTile.tsx": {
+    "mtime": 1785447194643.7917,
+    "hash": "56301721ab679c39d9e15af2acac17ab"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/InfoNote.tsx": {
+    "mtime": 1785447198873.6667,
+    "hash": "01f96f92d2d672665710a61ec2598bf5"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/LinkButton.tsx": {
+    "mtime": 1785447382701.4663,
+    "hash": "366254b6570e5b2abb5c6228c2f0ef3a"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/LoginForm.tsx": {
+    "mtime": 1785447821175.3096,
+    "hash": "52204fa14c05ef183cd1a5403d8fcc87"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/Logo.tsx": {
+    "mtime": 1785447206542.6177,
+    "hash": "06b70731be298455a17328cec9b3bcbe"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/OtpInputGroup.tsx": {
+    "mtime": 1785447266654.1338,
+    "hash": "7e02a796754c37e8e7b04fb1162aad50"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/PhoneField.tsx": {
+    "mtime": 1785447229338.676,
+    "hash": "f6b1e2c41d90bed448e44cfa8beb42b0"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/RedirectNotice.tsx": {
+    "mtime": 1785447625961.723,
+    "hash": "6be3f1f2740a480f3681bbd6bf88bd11"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/ResendButton.tsx": {
+    "mtime": 1785447566135.385,
+    "hash": "9bfd811a5c24754f1fcae51222531eff"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/RoleSelector.tsx": {
+    "mtime": 1785447468321.59,
+    "hash": "d6623c06d679642ca005056bffab90d9"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/SegmentedToggle.tsx": {
+    "mtime": 1785447241649.7444,
+    "hash": "de76d313f9c028938cb561d0d11ee9db"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/SignupForm.tsx": {
+    "mtime": 1785447825866.257,
+    "hash": "d665755cb88d48a9c69d14e92ddbc912"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/SocialButton.tsx": {
+    "mtime": 1785447412152.1748,
+    "hash": "1ff96f9842c1fed8f5ddf2a15201f670"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/StepIndicator.tsx": {
+    "mtime": 1785447489679.4873,
+    "hash": "3f3f283cd5fb1fc46b40aa4d73d1d401"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/SuccessIcon.tsx": {
+    "mtime": 1785447555870.1746,
+    "hash": "7e92a4b3c3cd1da236495a9ae7f65aa0"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/ValidationChecklist.tsx": {
+    "mtime": 1785447607505.211,
+    "hash": "2950a9970f38d12788f5c10fbe299818"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/VerifyForm.tsx": {
+    "mtime": 1785447586244.1038,
+    "hash": "a61fcb9774f5154371be9bbf0994cd0e"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/src/components/auth/useCountdown.ts": {
+    "mtime": 1785447271970.4258,
+    "hash": "6651b2ae8200517abbfdb37984db833e"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/.graphify/GRAPH_REPORT.md": {
+    "mtime": 1785452826597.4631,
+    "hash": "65249610b93b04bd1236cc5f6e45fcb0"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/.graphify/description-instructions/batch-000.md": {
+    "mtime": 1785452826563.495,
+    "hash": "bf19428a9c953a2a76058e3e4751a2e0"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/.graphify/label-instructions/communities.md": {
+    "mtime": 1785452826525.9736,
+    "hash": "3fc9ef2de0f8da4c13997378dcf60168"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/design.md": {
+    "mtime": 1785361440477.2927,
+    "hash": "f1d705ccba5e03272859710fd483a488"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/public/auth/rihaish-logo-mark.png": {
+    "mtime": 1785447057079.2766,
+    "hash": "764ac38e576e7144428f233c20d7ad96"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/public/auth/welcome-screen.png": {
+    "mtime": 1785447057102.6208,
+    "hash": "1377681d56ed9bfa6b8ce96d7b4fd15d"
   }
 }
