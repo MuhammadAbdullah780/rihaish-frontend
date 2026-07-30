@@ -1,0 +1,2910 @@
+{
+  "nodes": [
+    {
+      "id": "next_config",
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "next_config_nextconfig",
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "postcss_config",
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "postcss_config_config",
+      "label": "config",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "code_sent_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "code_sent_page_codesentpage",
+      "label": "CodeSentPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "forgot_password_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "forgot_password_page_forgotpasswordpage",
+      "label": "ForgotPasswordPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "auth_layout",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_layout_authlayout",
+      "label": "AuthLayout()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/layout.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "login_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "login_page_loginpage",
+      "label": "LoginPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "password_updated_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "password_updated_page_passwordupdatedpage",
+      "label": "PasswordUpdatedPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "reset_password_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "reset_password_page_resetpasswordpage",
+      "label": "ResetPasswordPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "signup_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "signup_page_signuppage",
+      "label": "SignupPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "verify_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "verify_page_verifypage",
+      "label": "VerifyPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "welcome_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "welcome_page_stats",
+      "label": "stats",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "welcome_page_welcomepage",
+      "label": "WelcomePage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "main_layout",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "main_layout_inter",
+      "label": "inter",
+      "file_type": "code",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "main_layout_sourceserif4",
+      "label": "sourceSerif4",
+      "file_type": "code",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "main_layout_metadata",
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L16"
+    },
+    {
+      "id": "main_layout_rootlayout",
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L21"
+    },
+    {
+      "id": "main_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "main_page_home",
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "auth_authcardshell",
+      "label": "AuthCardShell.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthCardShell.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_authcardshell_authcardshellprops",
+      "label": "AuthCardShellProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthCardShell.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "auth_authcardshell_authcardshell",
+      "label": "AuthCardShell()",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthCardShell.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "auth_authroutetransition",
+      "label": "AuthRouteTransition.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthRouteTransition.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_authroutetransition_phase",
+      "label": "Phase",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthRouteTransition.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "auth_authroutetransition_authroutetransition",
+      "label": "AuthRouteTransition()",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthRouteTransition.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "auth_authsplitshell",
+      "label": "AuthSplitShell.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthSplitShell.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_authsplitshell_authsplitshellprops",
+      "label": "AuthSplitShellProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthSplitShell.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "auth_authsplitshell_authsplitshell",
+      "label": "AuthSplitShell()",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthSplitShell.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "auth_authtopbar",
+      "label": "AuthTopBar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthTopBar.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_authtopbar_authtopbarprops",
+      "label": "AuthTopBarProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthTopBar.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "auth_authtopbar_authtopbar",
+      "label": "AuthTopBar()",
+      "file_type": "code",
+      "source_file": "src/components/auth/AuthTopBar.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "auth_backlink",
+      "label": "BackLink.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/BackLink.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_backlink_backlinkprops",
+      "label": "BackLinkProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/BackLink.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "auth_backlink_backlink",
+      "label": "BackLink()",
+      "file_type": "code",
+      "source_file": "src/components/auth/BackLink.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "auth_button",
+      "label": "Button.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/Button.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_button_buttonvariant",
+      "label": "ButtonVariant",
+      "file_type": "code",
+      "source_file": "src/components/auth/Button.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "auth_button_buttonprops",
+      "label": "ButtonProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/Button.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "auth_button_buttonvariantclasses",
+      "label": "buttonVariantClasses",
+      "file_type": "code",
+      "source_file": "src/components/auth/Button.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "auth_button_button",
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "src/components/auth/Button.tsx",
+      "source_location": "L19"
+    },
+    {
+      "id": "auth_card",
+      "label": "Card.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/Card.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_card_cardprops",
+      "label": "CardProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/Card.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "auth_card_card",
+      "label": "Card()",
+      "file_type": "code",
+      "source_file": "src/components/auth/Card.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "auth_divider",
+      "label": "Divider.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/Divider.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_divider_divider",
+      "label": "Divider()",
+      "file_type": "code",
+      "source_file": "src/components/auth/Divider.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_icon",
+      "label": "Icon.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/Icon.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_icon_iconprops",
+      "label": "IconProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/Icon.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_icon_icon",
+      "label": "Icon()",
+      "file_type": "code",
+      "source_file": "src/components/auth/Icon.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "auth_icontile",
+      "label": "IconTile.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/IconTile.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_icontile_icontileprops",
+      "label": "IconTileProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/IconTile.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "auth_icontile_icontile",
+      "label": "IconTile()",
+      "file_type": "code",
+      "source_file": "src/components/auth/IconTile.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "auth_infonote",
+      "label": "InfoNote.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/InfoNote.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_infonote_infonoteprops",
+      "label": "InfoNoteProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/InfoNote.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "auth_infonote_infonote",
+      "label": "InfoNote()",
+      "file_type": "code",
+      "source_file": "src/components/auth/InfoNote.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "auth_linkbutton",
+      "label": "LinkButton.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/LinkButton.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_linkbutton_linkbuttonprops",
+      "label": "LinkButtonProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/LinkButton.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "auth_linkbutton_linkbutton",
+      "label": "LinkButton()",
+      "file_type": "code",
+      "source_file": "src/components/auth/LinkButton.tsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "auth_loginform",
+      "label": "LoginForm.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_loginform_loginform",
+      "label": "LoginForm()",
+      "file_type": "code",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "auth_logo",
+      "label": "Logo.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/Logo.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_logo_logoprops",
+      "label": "LogoProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/Logo.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "auth_logo_sizes",
+      "label": "sizes",
+      "file_type": "code",
+      "source_file": "src/components/auth/Logo.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "auth_logo_logo",
+      "label": "Logo()",
+      "file_type": "code",
+      "source_file": "src/components/auth/Logo.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "auth_otpinputgroup",
+      "label": "OtpInputGroup.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/OtpInputGroup.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_otpinputgroup_otpinputgroupprops",
+      "label": "OtpInputGroupProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/OtpInputGroup.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "auth_otpinputgroup_otpinputgroup",
+      "label": "OtpInputGroup()",
+      "file_type": "code",
+      "source_file": "src/components/auth/OtpInputGroup.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "auth_phonefield",
+      "label": "PhoneField.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/PhoneField.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_phonefield_phonefieldprops",
+      "label": "PhoneFieldProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/PhoneField.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "auth_phonefield_phonefield",
+      "label": "PhoneField()",
+      "file_type": "code",
+      "source_file": "src/components/auth/PhoneField.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "auth_redirectnotice",
+      "label": "RedirectNotice.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/RedirectNotice.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_redirectnotice_redirectnotice",
+      "label": "RedirectNotice()",
+      "file_type": "code",
+      "source_file": "src/components/auth/RedirectNotice.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "auth_resendbutton",
+      "label": "ResendButton.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/ResendButton.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_resendbutton_resendbutton",
+      "label": "ResendButton()",
+      "file_type": "code",
+      "source_file": "src/components/auth/ResendButton.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "auth_roleselector",
+      "label": "RoleSelector.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/RoleSelector.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_roleselector_role",
+      "label": "Role",
+      "file_type": "code",
+      "source_file": "src/components/auth/RoleSelector.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "auth_roleselector_roles",
+      "label": "roles",
+      "file_type": "code",
+      "source_file": "src/components/auth/RoleSelector.tsx",
+      "source_location": "L13"
+    },
+    {
+      "id": "auth_roleselector_roleselector",
+      "label": "RoleSelector()",
+      "file_type": "code",
+      "source_file": "src/components/auth/RoleSelector.tsx",
+      "source_location": "L20"
+    },
+    {
+      "id": "auth_segmentedtoggle",
+      "label": "SegmentedToggle.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/SegmentedToggle.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_segmentedtoggle_segmentedtoggleoption",
+      "label": "SegmentedToggleOption",
+      "file_type": "code",
+      "source_file": "src/components/auth/SegmentedToggle.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_segmentedtoggle_segmentedtoggleprops",
+      "label": "SegmentedToggleProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/SegmentedToggle.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "auth_segmentedtoggle_segmentedtoggle",
+      "label": "SegmentedToggle()",
+      "file_type": "code",
+      "source_file": "src/components/auth/SegmentedToggle.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "auth_signupform",
+      "label": "SignupForm.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_signupform_signupform",
+      "label": "SignupForm()",
+      "file_type": "code",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "auth_socialbutton",
+      "label": "SocialButton.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/SocialButton.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_socialbutton_socialbuttonprops",
+      "label": "SocialButtonProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/SocialButton.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "auth_socialbutton_socialbutton",
+      "label": "SocialButton()",
+      "file_type": "code",
+      "source_file": "src/components/auth/SocialButton.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "auth_socialbutton_googleicon",
+      "label": "GoogleIcon()",
+      "file_type": "code",
+      "source_file": "src/components/auth/SocialButton.tsx",
+      "source_location": "L22"
+    },
+    {
+      "id": "auth_socialbutton_appleicon",
+      "label": "AppleIcon()",
+      "file_type": "code",
+      "source_file": "src/components/auth/SocialButton.tsx",
+      "source_location": "L30"
+    },
+    {
+      "id": "auth_stepindicator",
+      "label": "StepIndicator.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/StepIndicator.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_stepindicator_stepindicatorprops",
+      "label": "StepIndicatorProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/StepIndicator.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_stepindicator_stepindicator",
+      "label": "StepIndicator()",
+      "file_type": "code",
+      "source_file": "src/components/auth/StepIndicator.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "auth_successicon",
+      "label": "SuccessIcon.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/SuccessIcon.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_successicon_successiconprops",
+      "label": "SuccessIconProps",
+      "file_type": "code",
+      "source_file": "src/components/auth/SuccessIcon.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "auth_successicon_successicon",
+      "label": "SuccessIcon()",
+      "file_type": "code",
+      "source_file": "src/components/auth/SuccessIcon.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "auth_validationchecklist",
+      "label": "ValidationChecklist.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/ValidationChecklist.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_validationchecklist_checklistitem",
+      "label": "ChecklistItem",
+      "file_type": "code",
+      "source_file": "src/components/auth/ValidationChecklist.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "auth_validationchecklist_validationchecklist",
+      "label": "ValidationChecklist()",
+      "file_type": "code",
+      "source_file": "src/components/auth/ValidationChecklist.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "auth_verifyform",
+      "label": "VerifyForm.tsx",
+      "file_type": "code",
+      "source_file": "src/components/auth/VerifyForm.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_verifyform_verifyform",
+      "label": "VerifyForm()",
+      "file_type": "code",
+      "source_file": "src/components/auth/VerifyForm.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "auth_usecountdown",
+      "label": "useCountdown.ts",
+      "file_type": "code",
+      "source_file": "src/components/auth/useCountdown.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_usecountdown_usecountdown",
+      "label": "useCountdown()",
+      "file_type": "code",
+      "source_file": "src/components/auth/useCountdown.ts",
+      "source_location": "L5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "next_config",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "next_config",
+      "target": "next_config_nextconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "postcss_config",
+      "target": "postcss_config_config",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_authcardshell",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_authcardshell_authcardshell",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_card",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_card_card",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_successicon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_successicon_successicon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_linkbutton",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_linkbutton_linkbutton",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_resendbutton",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_resendbutton_resendbutton",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_infonote",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_infonote_infonote",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_backlink",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "auth_backlink_backlink",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "code_sent_page",
+      "target": "code_sent_page_codesentpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/code-sent/page.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "auth_authcardshell",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "auth_authcardshell_authcardshell",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "auth_card",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "auth_card_card",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "auth_backlink",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "auth_backlink_backlink",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "auth_icontile",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "auth_icontile_icontile",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "c_users_hp_desktop_fyp_frontend_frontend_src_components_auth_forgotpasswordform_tsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "auth_forgotpasswordform_forgotpasswordform",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "forgot_password_page",
+      "target": "forgot_password_page_forgotpasswordpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/forgot-password/page.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "auth_layout",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/layout.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_layout",
+      "target": "auth_authroutetransition",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/layout.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "auth_layout",
+      "target": "auth_authroutetransition_authroutetransition",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/layout.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "auth_layout",
+      "target": "auth_layout_authlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/layout.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "auth_authsplitshell",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "auth_authsplitshell_authsplitshell",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "auth_logo",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "auth_logo_logo",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "auth_icon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "auth_icon_icon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "auth_loginform",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "auth_loginform_loginform",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "login_page",
+      "target": "login_page_loginpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/login/page.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_authcardshell",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_authcardshell_authcardshell",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_card",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_card_card",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_successicon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_successicon_successicon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_linkbutton",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_linkbutton_linkbutton",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_redirectnotice",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_redirectnotice_redirectnotice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_icon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "auth_icon_icon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "password_updated_page",
+      "target": "password_updated_page_passwordupdatedpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/password-updated/page.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "reset_password_page",
+      "target": "auth_authcardshell",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "reset_password_page",
+      "target": "auth_authcardshell_authcardshell",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "reset_password_page",
+      "target": "auth_card",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "reset_password_page",
+      "target": "auth_card_card",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "reset_password_page",
+      "target": "auth_icontile",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "reset_password_page",
+      "target": "auth_icontile_icontile",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "reset_password_page",
+      "target": "c_users_hp_desktop_fyp_frontend_frontend_src_components_auth_resetpasswordform_tsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "reset_password_page",
+      "target": "auth_resetpasswordform_resetpasswordform",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "reset_password_page",
+      "target": "reset_password_page_resetpasswordpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/reset-password/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "auth_authcardshell",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "auth_authcardshell_authcardshell",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "auth_card",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "auth_card_card",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "auth_stepindicator",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "auth_stepindicator_stepindicator",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "auth_roleselector",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "auth_roleselector_roleselector",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "auth_signupform",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "auth_signupform_signupform",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "signup_page",
+      "target": "signup_page_signuppage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/signup/page.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "verify_page",
+      "target": "auth_authcardshell",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "verify_page",
+      "target": "auth_authcardshell_authcardshell",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "verify_page",
+      "target": "auth_card",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "verify_page",
+      "target": "auth_card_card",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "verify_page",
+      "target": "auth_icontile",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "verify_page",
+      "target": "auth_icontile_icontile",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "verify_page",
+      "target": "auth_verifyform",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "verify_page",
+      "target": "auth_verifyform_verifyform",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "verify_page",
+      "target": "verify_page_verifypage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/verify/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "auth_authsplitshell",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "auth_authsplitshell_authsplitshell",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "auth_logo",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "auth_logo_logo",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "auth_linkbutton",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "auth_linkbutton_linkbutton",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "auth_icon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "auth_icon_icon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "welcome_page_stats",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "welcome_page",
+      "target": "welcome_page_welcomepage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/auth/welcome/page.tsx",
+      "source_location": "L14",
+      "weight": 1
+    },
+    {
+      "source": "main_layout",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "main_layout",
+      "target": "google",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "main_layout",
+      "target": "c_users_hp_desktop_fyp_frontend_frontend_src_app_globals_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "main_layout",
+      "target": "main_layout_inter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "main_layout",
+      "target": "main_layout_sourceserif4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "main_layout",
+      "target": "main_layout_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L16",
+      "weight": 1
+    },
+    {
+      "source": "main_layout",
+      "target": "main_layout_rootlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L21",
+      "weight": 1
+    },
+    {
+      "source": "main_page",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "main_page",
+      "target": "main_page_home",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_authcardshell",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthCardShell.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_authcardshell",
+      "target": "auth_authtopbar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthCardShell.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "auth_authcardshell",
+      "target": "auth_authtopbar_authtopbar",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthCardShell.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "auth_authcardshell",
+      "target": "auth_authcardshell_authcardshellprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthCardShell.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_authcardshell",
+      "target": "auth_authcardshell_authcardshell",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthCardShell.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "auth_authroutetransition",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthRouteTransition.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_authroutetransition",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthRouteTransition.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_authroutetransition",
+      "target": "auth_logo",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthRouteTransition.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_authroutetransition",
+      "target": "auth_logo_logo",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthRouteTransition.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_authroutetransition",
+      "target": "auth_authroutetransition_phase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthRouteTransition.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "auth_authroutetransition",
+      "target": "auth_authroutetransition_authroutetransition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthRouteTransition.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "auth_authsplitshell",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthSplitShell.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_authsplitshell",
+      "target": "auth_authsplitshell_authsplitshellprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthSplitShell.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_authsplitshell",
+      "target": "auth_authsplitshell_authsplitshell",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthSplitShell.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "auth_authtopbar",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthTopBar.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_authtopbar",
+      "target": "auth_logo",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthTopBar.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "auth_authtopbar",
+      "target": "auth_logo_logo",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthTopBar.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "auth_authtopbar",
+      "target": "auth_authtopbar_authtopbarprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthTopBar.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_authtopbar",
+      "target": "auth_authtopbar_authtopbar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/AuthTopBar.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "auth_backlink",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/BackLink.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_backlink",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/BackLink.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "auth_backlink",
+      "target": "auth_icon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/BackLink.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_backlink",
+      "target": "auth_icon_icon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/BackLink.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_backlink",
+      "target": "auth_backlink_backlinkprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/BackLink.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_backlink",
+      "target": "auth_backlink_backlink",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/BackLink.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "auth_button",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Button.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_button",
+      "target": "auth_button_buttonvariant",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Button.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_button",
+      "target": "auth_button_buttonprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Button.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_button",
+      "target": "auth_button_buttonvariantclasses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Button.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "auth_button",
+      "target": "auth_button_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Button.tsx",
+      "source_location": "L19",
+      "weight": 1
+    },
+    {
+      "source": "auth_card",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Card.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_card",
+      "target": "auth_card_cardprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Card.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_card",
+      "target": "auth_card_card",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Card.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "auth_divider",
+      "target": "auth_divider_divider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Divider.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_icon",
+      "target": "auth_icon_iconprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Icon.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_icon",
+      "target": "auth_icon_icon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Icon.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "auth_icontile",
+      "target": "auth_icon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/IconTile.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_icontile",
+      "target": "auth_icon_icon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/IconTile.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_icontile",
+      "target": "auth_icontile_icontileprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/IconTile.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_icontile",
+      "target": "auth_icontile_icontile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/IconTile.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "auth_infonote",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/InfoNote.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_infonote",
+      "target": "auth_icon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/InfoNote.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "auth_infonote",
+      "target": "auth_icon_icon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/InfoNote.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "auth_infonote",
+      "target": "auth_infonote_infonoteprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/InfoNote.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_infonote",
+      "target": "auth_infonote_infonote",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/InfoNote.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "auth_linkbutton",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LinkButton.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_linkbutton",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LinkButton.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "auth_linkbutton",
+      "target": "auth_button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LinkButton.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_linkbutton",
+      "target": "auth_button_buttonvariant",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LinkButton.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_linkbutton",
+      "target": "auth_button_buttonvariantclasses",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LinkButton.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_linkbutton",
+      "target": "auth_linkbutton_linkbuttonprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LinkButton.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_linkbutton",
+      "target": "auth_linkbutton_linkbutton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LinkButton.tsx",
+      "source_location": "L11",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_segmentedtoggle",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_segmentedtoggle_segmentedtoggle",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_phonefield",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_phonefield_phonefield",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "c_users_hp_desktop_fyp_frontend_frontend_src_components_auth_passwordfield_tsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_passwordfield_passwordfield",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_button_button",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_divider",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_divider_divider",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_socialbutton",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_socialbutton_socialbutton",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_socialbutton_googleicon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_socialbutton_appleicon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "auth_loginform",
+      "target": "auth_loginform_loginform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/LoginForm.tsx",
+      "source_location": "L11",
+      "weight": 1
+    },
+    {
+      "source": "auth_logo",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Logo.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_logo",
+      "target": "auth_logo_logoprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Logo.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_logo",
+      "target": "auth_logo_sizes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Logo.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "auth_logo",
+      "target": "auth_logo_logo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/Logo.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "auth_otpinputgroup",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/OtpInputGroup.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_otpinputgroup",
+      "target": "auth_otpinputgroup_otpinputgroupprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/OtpInputGroup.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_otpinputgroup",
+      "target": "auth_otpinputgroup_otpinputgroup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/OtpInputGroup.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "auth_phonefield",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/PhoneField.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_phonefield",
+      "target": "auth_phonefield_phonefieldprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/PhoneField.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_phonefield",
+      "target": "auth_phonefield_phonefield",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/PhoneField.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "auth_redirectnotice",
+      "target": "auth_usecountdown",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/RedirectNotice.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_redirectnotice",
+      "target": "auth_usecountdown_usecountdown",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/RedirectNotice.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_redirectnotice",
+      "target": "auth_redirectnotice_redirectnotice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/RedirectNotice.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_resendbutton",
+      "target": "auth_usecountdown",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/ResendButton.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_resendbutton",
+      "target": "auth_usecountdown_usecountdown",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/ResendButton.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_resendbutton",
+      "target": "auth_button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/ResendButton.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_resendbutton",
+      "target": "auth_button_button",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/ResendButton.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_resendbutton",
+      "target": "auth_resendbutton_resendbutton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/ResendButton.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "auth_roleselector",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/RoleSelector.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_roleselector",
+      "target": "auth_icon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/RoleSelector.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_roleselector",
+      "target": "auth_icon_icon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/RoleSelector.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_roleselector",
+      "target": "auth_roleselector_role",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/RoleSelector.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "auth_roleselector",
+      "target": "auth_roleselector_roles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/RoleSelector.tsx",
+      "source_location": "L13",
+      "weight": 1
+    },
+    {
+      "source": "auth_roleselector",
+      "target": "auth_roleselector_roleselector",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/RoleSelector.tsx",
+      "source_location": "L20",
+      "weight": 1
+    },
+    {
+      "source": "auth_segmentedtoggle",
+      "target": "auth_segmentedtoggle_segmentedtoggleoption",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SegmentedToggle.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_segmentedtoggle",
+      "target": "auth_segmentedtoggle_segmentedtoggleprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SegmentedToggle.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "auth_segmentedtoggle",
+      "target": "auth_segmentedtoggle_segmentedtoggle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SegmentedToggle.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "auth_signupform",
+      "target": "auth_phonefield",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_signupform",
+      "target": "auth_phonefield_phonefield",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_signupform",
+      "target": "c_users_hp_desktop_fyp_frontend_frontend_src_components_auth_passwordfield_tsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_signupform",
+      "target": "auth_passwordfield_passwordfield",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_signupform",
+      "target": "c_users_hp_desktop_fyp_frontend_frontend_src_components_auth_passwordstrengthmeter_tsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_signupform",
+      "target": "auth_passwordstrengthmeter_passwordstrengthmeter",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_signupform",
+      "target": "auth_button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "auth_signupform",
+      "target": "auth_button_button",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "auth_signupform",
+      "target": "auth_signupform_signupform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SignupForm.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "auth_socialbutton",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SocialButton.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_socialbutton",
+      "target": "auth_socialbutton_socialbuttonprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SocialButton.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_socialbutton",
+      "target": "auth_socialbutton_socialbutton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SocialButton.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "auth_socialbutton",
+      "target": "auth_socialbutton_googleicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SocialButton.tsx",
+      "source_location": "L22",
+      "weight": 1
+    },
+    {
+      "source": "auth_socialbutton",
+      "target": "auth_socialbutton_appleicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SocialButton.tsx",
+      "source_location": "L30",
+      "weight": 1
+    },
+    {
+      "source": "auth_stepindicator",
+      "target": "auth_stepindicator_stepindicatorprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/StepIndicator.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_stepindicator",
+      "target": "auth_stepindicator_stepindicator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/StepIndicator.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "auth_successicon",
+      "target": "auth_icon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SuccessIcon.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_successicon",
+      "target": "auth_icon_icon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SuccessIcon.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_successicon",
+      "target": "auth_successicon_successiconprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SuccessIcon.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_successicon",
+      "target": "auth_successicon_successicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/SuccessIcon.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "auth_validationchecklist",
+      "target": "auth_icon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/ValidationChecklist.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_validationchecklist",
+      "target": "auth_icon_icon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/ValidationChecklist.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "auth_validationchecklist",
+      "target": "auth_validationchecklist_checklistitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/ValidationChecklist.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_validationchecklist",
+      "target": "auth_validationchecklist_validationchecklist",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/ValidationChecklist.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "auth_verifyform",
+      "target": "auth_otpinputgroup",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/VerifyForm.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_verifyform",
+      "target": "auth_otpinputgroup_otpinputgroup",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/VerifyForm.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_verifyform",
+      "target": "auth_button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/VerifyForm.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_verifyform",
+      "target": "auth_button_button",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/VerifyForm.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "auth_verifyform",
+      "target": "auth_usecountdown",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/VerifyForm.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_verifyform",
+      "target": "auth_usecountdown_usecountdown",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/VerifyForm.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "auth_verifyform",
+      "target": "auth_verifyform_verifyform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/VerifyForm.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "auth_usecountdown",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/useCountdown.ts",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "auth_usecountdown",
+      "target": "auth_usecountdown_usecountdown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/auth/useCountdown.ts",
+      "source_location": "L5",
+      "weight": 1
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "hyperedges": []
+}

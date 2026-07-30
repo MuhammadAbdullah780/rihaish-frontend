@@ -52,3 +52,8 @@ next-env.d.ts
 # solo project — also ignore these:
 .graphify/graph.json
 .graphify/GRAPH_REPORT.md
+
+# graphify local worktree/lifecycle state — not portable across machines
+.graphify/branch.json
+.graphify/worktree.json
+.graphify/needs_update

@@ -1,10 +1,11 @@
 {
-  "0": "Community 0",
-  "1": "Community 1",
-  "2": "Community 2",
-  "3": "Community 3",
-  "4": "Community 4",
-  "5": "Community 5",
-  "6": "Community 6",
-  "7": "Community 7"
+  "0": "Auth Shell & Branding UI",
+  "1": "Login/Signup Form Fields",
+  "2": "Auth Card Navigation UI",
+  "3": "Auth Card Shell & Steps",
+  "4": "Buttons & Countdown Hook",
+  "5": "Auth Notices & Redirects",
+  "6": "Project Config & Home Page",
+  "7": "Auth Layout Transitions",
+  "8": "Root Layout & Fonts"
 }

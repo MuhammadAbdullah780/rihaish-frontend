@@ -1,25 +1,25 @@
 # Graph Report - .  (2026-07-30)
 
 ## Corpus Check
-- 54 files · ~67,892 words
+- 53 files · ~68,424 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 114 nodes · 239 edges · 8 communities detected
+- 119 nodes · 286 edges · 9 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
-- Edge kinds: contains: 71 · imports: 64 · imports_from: 61 · MODIFIES: 40 · ON_BRANCH: 2 · PARENT_OF: 1
+- Edge kinds: MODIFIES: 80 · contains: 71 · imports: 64 · imports_from: 61 · ON_BRANCH: 6 · PARENT_OF: 4
 
 
 ## Input Scope
 - Requested: auto
 - Resolved: committed (source: default-auto)
-- Included files: 54 · Candidates: 77
-- Excluded: 1 untracked · 11032 ignored · 4 sensitive · 0 missing committed
+- Included files: 53 · Candidates: 117
+- Excluded: 7 untracked · 11138 ignored · 4 sensitive · 1 missing committed
 - Recommendation: Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder.
 
 ## Graph Freshness
-- Built from Git commit: `6458873`
+- Built from Git commit: `40686c8`
 - Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
 1. `Icon()` - 10 edges
@@ -38,56 +38,54 @@
 
 ## Communities
 
-### Community 0 - "Community 0"
-Cohesion: 0.17
-Nodes (10): AuthCardShell(), AuthCardShellProps, AuthTopBar(), AuthTopBarProps, BackLink(), BackLinkProps, Card(), CardProps (+2 more)
-
-### Community 1 - "Community 1"
-Cohesion: 0.14
-Nodes (11): AuthSplitShell(), AuthSplitShellProps, Icon(), IconProps, InfoNote(), InfoNoteProps, Logo(), LogoProps (+3 more)
-
-### Community 2 - "Community 2"
-Cohesion: 0.15
-Nodes (10): OtpInputGroup(), OtpInputGroupProps, ResendButton(), useCountdown(), VerifyForm(), master, 1d6803b Initial commit from Create Next App, 6458873 feat: init next js project and auth screens (+2 more)
-
-### Community 3 - "Community 3"
-Cohesion: 0.16
-Nodes (12): Button(), Divider(), LoginForm(), PhoneField(), PhoneFieldProps, SegmentedToggle(), SegmentedToggleOption, SegmentedToggleProps (+4 more)
-
-### Community 4 - "Community 4"
-Cohesion: 0.21
-Nodes (8): ButtonProps, ButtonVariant, buttonVariantClasses, LinkButton(), LinkButtonProps, RedirectNotice(), SuccessIcon(), SuccessIconProps
-
-### Community 5 - "Community 5"
+### Community 6 - "Project Config & Home Page"
 Cohesion: 0.24
-Nodes (6): Role, roles, RoleSelector(), SignupForm(), StepIndicator(), StepIndicatorProps
+Nodes (7): nextConfig, config, 1d6803b Initial commit from Create Next App, 40686c8 change in gitignore, 5e449a6 graphify check, 6458873 feat: init next js project and auth screens, main
 
-### Community 6 - "Community 6"
-Cohesion: 0.50
-Nodes (2): AuthRouteTransition(), Phase
+### Community 5 - "Auth Notices & Redirects"
+Cohesion: 0.20
+Nodes (7): InfoNoteProps, InfoNote(), LinkButton(), RedirectNotice(), ResendButton(), SuccessIconProps, SuccessIcon()
 
-### Community 7 - "Community 7"
+### Community 2 - "Auth Card Navigation UI"
+Cohesion: 0.20
+Nodes (7): BackLinkProps, BackLink(), CardProps, Card(), IconTileProps, IconTile(), VerifyForm()
+
+### Community 7 - "Auth Layout Transitions"
+Cohesion: 0.36
+Nodes (5): Phase, AuthRouteTransition(), 1d6803b Initial commit from Create Next App, 6458873 feat: init next js project and auth screens, master
+
+### Community 0 - "Auth Shell & Branding UI"
+Cohesion: 0.17
+Nodes (9): stats, AuthSplitShellProps, AuthSplitShell(), IconProps, Icon(), LogoProps, sizes, Logo() (+1 more)
+
+### Community 3 - "Auth Card Shell & Steps"
+Cohesion: 0.17
+Nodes (9): AuthCardShellProps, AuthCardShell(), AuthTopBarProps, AuthTopBar(), Role, roles, RoleSelector(), StepIndicatorProps (+1 more)
+
+### Community 8 - "Root Layout & Fonts"
 Cohesion: 0.40
-Nodes (3): inter, metadata, sourceSerif4
+Nodes (3): inter, sourceSerif4, metadata
+
+### Community 4 - "Buttons & Countdown Hook"
+Cohesion: 0.23
+Nodes (8): ButtonVariant, ButtonProps, buttonVariantClasses, Button(), LinkButtonProps, OtpInputGroupProps, OtpInputGroup(), useCountdown()
+
+### Community 1 - "Login/Signup Form Fields"
+Cohesion: 0.16
+Nodes (12): Divider(), LoginForm(), PhoneFieldProps, PhoneField(), SegmentedToggleOption, SegmentedToggleProps, SegmentedToggle(), SignupForm() (+4 more)
 
 ## Knowledge Gaps
-- **29 isolated node(s):** `stats`, `inter`, `sourceSerif4`, `metadata`, `AuthCardShellProps` (+24 more)
+- **29 isolated node(s):** `nextConfig`, `config`, `stats`, `inter`, `sourceSerif4` (+24 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Community 6`** (2 nodes): `AuthRouteTransition()`, `Phase`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Icon()` connect `Community 1` to `Community 0`, `Community 5`, `Community 4`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
-- **Why does `AuthCardShell()` connect `Community 0` to `Community 4`, `Community 5`, `Community 2`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Why does `Card()` connect `Community 0` to `Community 4`, `Community 5`, `Community 2`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **What connects `stats`, `inter`, `sourceSerif4` to the rest of the system?**
+- **Why does `Icon()` connect `Auth Shell & Branding UI` to `Auth Card Navigation UI`, `Auth Notices & Redirects`, `Auth Card Shell & Steps`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **Why does `AuthCardShell()` connect `Auth Card Shell & Steps` to `Auth Notices & Redirects`, `Auth Card Navigation UI`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **Why does `Card()` connect `Auth Card Navigation UI` to `Auth Notices & Redirects`, `Auth Card Shell & Steps`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **What connects `nextConfig`, `config`, `stats` to the rest of the system?**
   _29 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
-- **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.14761904761904762 - nodes in this community are weakly interconnected._

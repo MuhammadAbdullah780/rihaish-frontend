@@ -43,7 +43,6 @@
       "src/components/auth/useCountdown.ts"
     ],
     "document": [
-      ".graphify/GRAPH_REPORT.md",
       ".graphify/description-instructions/batch-000.md",
       ".graphify/label-instructions/communities.md",
       "AGENTS.md",
@@ -63,8 +62,8 @@
     ],
     "video": []
   },
-  "total_files": 54,
-  "total_words": 67892,
+  "total_files": 53,
+  "total_words": 68424,
   "needs_graph": true,
   "warning": null,
   "skipped_sensitive": [
@@ -73,12 +72,12 @@
     "src/components/auth/PasswordStrengthMeter.tsx",
     "src/components/auth/ResetPasswordForm.tsx"
   ],
-  "graphifyignore_patterns": 22,
+  "graphifyignore_patterns": 30,
   "git": {
     "source_owner": "git",
-    "source_hash": "6458873d7b7102c0b524d3cb574d8c854310ad62",
+    "source_hash": "40686c83701ab7e03e830d785de91c003175ab8c",
     "branches": [
-      "master"
+      "main"
     ],
     "max_commits": 200,
     "active_within_days": 30
@@ -89,13 +88,13 @@
     "source": "default-auto",
     "root": ".",
     "git_root": ".",
-    "head": "6458873d7b7102c0b524d3cb574d8c854310ad62",
-    "candidate_count": 77,
-    "included_count": 54,
-    "excluded_untracked_count": 1,
-    "excluded_ignored_count": 11032,
+    "head": "40686c83701ab7e03e830d785de91c003175ab8c",
+    "candidate_count": 117,
+    "included_count": 53,
+    "excluded_untracked_count": 7,
+    "excluded_ignored_count": 11138,
     "excluded_sensitive_count": 4,
-    "missing_committed_count": 0,
+    "missing_committed_count": 1,
     "warnings": [],
     "recommendation": "Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder."
   }
