@@ -1,0 +1,42 @@
+{
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/next.config.ts": {
+    "mtime": 1785444913162.4207,
+    "hash": "073c476be067d6d4649b355483ee2690"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/postcss.config.mjs": {
+    "mtime": 1785444690666.1377,
+    "hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/AGENTS.md": {
+    "mtime": 1785449005664.383,
+    "hash": "4dfbb1eeb3e130ad525bd4add810765c"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/CLAUDE.md": {
+    "mtime": 1785449005664.383,
+    "hash": "4dfbb1eeb3e130ad525bd4add810765c"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/README.md": {
+    "mtime": 1785444689935.946,
+    "hash": "f15aaa42d5d299d091b1171097ea56ad"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/public/file.svg": {
+    "mtime": 1785444690760.6833,
+    "hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/public/globe.svg": {
+    "mtime": 1785444690876.978,
+    "hash": "2aaafa6a49b6563925fe440891e32717"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/public/next.svg": {
+    "mtime": 1785444690950.5847,
+    "hash": "8e061864f388b47f33a1c3780831193e"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/public/vercel.svg": {
+    "mtime": 1785444691015.8647,
+    "hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
+  },
+  "C:/Users/hp/Desktop/fyp-frontend/frontend/public/window.svg": {
+    "mtime": 1785444691094.3342,
+    "hash": "a2760511c65806022ad20adf74370ff3"
+  }
+}

@@ -1,26 +1,114 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Colour tokens — see design.md section 2 */
+  --color-brand-primary: #0e5c4a;
+  --color-brand-primary-hover: #0a4739;
+  --color-brand-tint: #e8f1ed;
+  --color-ink-900: #0f1720;
+  --color-ink-600: #4a5560;
+  --color-ink-400: #79838e;
+  --color-bg-page: #f6f7f6;
+  --color-surface: #ffffff;
+  --color-border-hairline: #e3e7e4;
+  --color-accent-data: #b4623a;
+  --color-success: #1e7f4f;
+  --color-success-bg: #e8f1ed;
+  --color-warning: #b0761c;
+  --color-warning-bg: #fdf4e6;
+  --color-danger: #b3261e;
+  --color-danger-bg: #fdecea;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Fonts — see design.md section 3 */
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-source-serif);
+
+  /* Type scale (web px) — see design.md section 3 */
+  --text-caption: 0.75rem; /* 12 */
+  --text-small: 0.875rem; /* 14 */
+  --text-body: 1rem; /* 16 */
+  --text-h3: 1.25rem; /* 20 */
+  --text-h2: 1.625rem; /* 26 */
+  --text-h1: 2.125rem; /* 34 */
+  --text-display: 3rem; /* 48 */
+
+  /* Type scale (mobile px) */
+  --text-caption-mobile: 0.8125rem; /* 13 */
+  --text-small-mobile: 0.9375rem; /* 15 */
+  --text-body-mobile: 1.0625rem; /* 17 */
+  --text-h3-mobile: 1.25rem; /* 20 */
+  --text-h2-mobile: 1.5rem; /* 24 */
+  --text-display-mobile: 2rem; /* 32 */
+
+  --leading-display: 1.15;
+  --leading-body: 1.5;
+  --tracking-display: -0.01em;
+  --tracking-label: 0.04em;
+
+  /* Shape — see design.md section 4 */
+  --radius-button: 8px;
+  --radius-card: 10px;
+  --radius-sheet: 20px;
+
+  /* Shadows — see design.md section 4 */
+  --shadow-resting: 0 1px 2px rgba(15, 23, 32, 0.06);
+  --shadow-elevated: 0 12px 32px rgba(15, 23, 32, 0.1);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg-page);
+  color: var(--color-ink-900);
+}
+
+@keyframes splash-progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+@keyframes splash-logo-in {
+  0% {
+    transform: scale(0.96);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes splash-content-in {
+  0% {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-splash-progress {
+  animation: splash-progress 1800ms cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+
+.animate-splash-logo {
+  animation: splash-logo-in 240ms ease-out forwards;
+}
+
+.animate-splash-content {
+  opacity: 0;
+  animation: splash-content-in 400ms ease-out forwards;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

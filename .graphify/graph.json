@@ -1,0 +1,149 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "provenance": {
+      "source_owner": "git",
+      "source_id": "repo:local/frontend@e5ad458c",
+      "observed_at": "2026-07-30T23:07:06.524Z",
+      "source_hash": "1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+      "adapter_version": "graphify-git/1"
+    },
+    "community_labels": {
+      "0": "Community 0",
+      "1": "Community 1",
+      "2": "Community 2"
+    },
+    "built_from_commit": "1d6803b3ac38411c4d60078635d4b9ebeccdc1cb"
+  },
+  "topology_signature": "n=6;e=5;branch:repo:local/frontend@e5ad458c#master,commit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb,next_config,next_config_nextconfig,postcss_config,postcss_config_config|branch:repo:local/frontend@e5ad458c#master\tcommit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb\tON_BRANCH;commit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb\tnext_config\tMODIFIES;commit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb\tpostcss_config\tMODIFIES;next_config\tnext_config_nextconfig\tcontains;postcss_config\tpostcss_config_config\tcontains",
+  "nodes": [
+    {
+      "id": "next_config",
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "next_config_nextconfig",
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "postcss_config",
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "community": 2,
+      "community_name": "Community 2"
+    },
+    {
+      "id": "postcss_config_config",
+      "label": "config",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "community": 2,
+      "community_name": "Community 2"
+    },
+    {
+      "id": "commit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+      "label": "1d6803b Initial commit from Create Next App",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:local/frontend@e5ad458c",
+      "sha": "1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+      "author": "Muhammad Abdullah <ma0401431@gmail.com>",
+      "authoredAt": "2026-07-31T01:57:28+05:00",
+      "message_summary": "Initial commit from Create Next App",
+      "message_length": 35,
+      "parents": [],
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "branch:repo:local/frontend@e5ad458c#master",
+      "label": "master",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Branch",
+      "repo": "repo:local/frontend@e5ad458c",
+      "branch_name": "master",
+      "head_sha": "1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+      "community": 0,
+      "community_name": "Community 0"
+    }
+  ],
+  "links": [
+    {
+      "source": "commit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+      "target": "branch:repo:local/frontend@e5ad458c#master",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+      "_tgt": "branch:repo:local/frontend@e5ad458c#master",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+      "target": "next_config",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "added": 8,
+      "deleted": 0,
+      "file_path": "next.config.ts",
+      "_src": "commit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+      "_tgt": "next_config",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+      "target": "postcss_config",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "postcss.config.mjs",
+      "added": 7,
+      "deleted": 0,
+      "file_path": "postcss.config.mjs",
+      "_src": "commit:repo:local/frontend@e5ad458c@1d6803b3ac38411c4d60078635d4b9ebeccdc1cb",
+      "_tgt": "postcss_config",
+      "confidence_score": 1
+    },
+    {
+      "source": "next_config",
+      "target": "next_config_nextconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "next_config",
+      "_tgt": "next_config_nextconfig",
+      "confidence_score": 1
+    },
+    {
+      "source": "postcss_config",
+      "target": "postcss_config_config",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "weight": 1,
+      "_src": "postcss_config",
+      "_tgt": "postcss_config_config",
+      "confidence_score": 1
+    }
+  ],
+  "hyperedges": []
+}
