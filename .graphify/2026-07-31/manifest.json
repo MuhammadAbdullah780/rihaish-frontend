@@ -160,8 +160,8 @@
     "hash": "4a92010afa0f9bd13eca32d5b1176c3f"
   },
   "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/AGENTS.md": {
-    "mtime": 1785494316271.529,
-    "hash": "58674cd228216417ab826e426b7bdb63"
+    "mtime": 1785509552459.1995,
+    "hash": "6959e312a23ee3988cf189ebca04d2ea"
   },
   "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/CLAUDE.md": {
     "mtime": 1785494657249.4456,
@@ -202,5 +202,113 @@
   "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/public/window.svg": {
     "mtime": 1785493441384.875,
     "hash": "a2760511c65806022ad20adf74370ff3"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/app/(main)/dashboard/buyer/compare/page.tsx": {
+    "mtime": 1785507070386.8728,
+    "hash": "4463ee45be142d308328335ba2266cbb"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/app/(main)/dashboard/buyer/favourites/page.tsx": {
+    "mtime": 1785507027553.276,
+    "hash": "e6213ed638ce5a370762c96a5dadd60d"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/app/(main)/dashboard/buyer/layout.tsx": {
+    "mtime": 1785507004348.3784,
+    "hash": "e5f0fd9658046654d862b71dd4a850f6"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/app/(main)/dashboard/buyer/notifications/page.tsx": {
+    "mtime": 1785507126610.9932,
+    "hash": "42041168e59ba6c97d479dc967364edf"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/app/(main)/dashboard/buyer/page.tsx": {
+    "mtime": 1785507015668.4746,
+    "hash": "7dcf43755e01ab0085ecf07d4cea701d"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/app/(main)/dashboard/buyer/profile/page.tsx": {
+    "mtime": 1785507142464.7715,
+    "hash": "d73cef16a1934b1ff9f9ed0209d68a43"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/app/(main)/dashboard/buyer/properties/[id]/page.tsx": {
+    "mtime": 1785507034834.1938,
+    "hash": "c58e937de06bab845c786dc59c81180a"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/app/(main)/dashboard/buyer/societies/[id]/page.tsx": {
+    "mtime": 1785507090742.1438,
+    "hash": "605445c098c4169224b26f40a61f4be5"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/components/buyer/BuyerFooter.tsx": {
+    "mtime": 1785506974209.8115,
+    "hash": "035a1e49cbd68fe9c1baccd33d8079ab"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/components/buyer/BuyerTopBar.tsx": {
+    "mtime": 1785506922025.0342,
+    "hash": "b73bfb965aa97138d52b80c893b7831a"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/components/buyer/Chip.tsx": {
+    "mtime": 1785506953861.9768,
+    "hash": "1c62e1b21f527054284056fa5b622c61"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/components/buyer/ComparePropertiesTable.tsx": {
+    "mtime": 1785507085047.0022,
+    "hash": "9038e0dfc179addd7b51a1932ffbd46e"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/components/buyer/PageHeader.tsx": {
+    "mtime": 1785506986762.1533,
+    "hash": "47245de4bf6bf2163fad009a97a8b3c8"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/components/buyer/PropertyCard.tsx": {
+    "mtime": 1785506967035.2715,
+    "hash": "6d969763f21a9ee117bbd0848e47521e"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/components/buyer/PropertyDetails.tsx": {
+    "mtime": 1785507057355.2354,
+    "hash": "388f11d0e65ec3e3a58fa2e734270ae3"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/components/buyer/SocietyDetails.tsx": {
+    "mtime": 1785507113307.5332,
+    "hash": "a29918e4baad8eeb28edb6532f29acde"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/components/buyer/StatTile.tsx": {
+    "mtime": 1785506980019.8716,
+    "hash": "3b55974c5c1543f4f8ed64a9fd55c320"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/lib/buyer/mockData.ts": {
+    "mtime": 1785506909006.245,
+    "hash": "13eb07cf1d4876ba9f87af328f49588c"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/src/lib/buyer/types.ts": {
+    "mtime": 1785506794093.2803,
+    "hash": "b027a15b1ebcde22958b84d946e4768d"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/.graphify/2026-07-31/GRAPH_REPORT.md": {
+    "mtime": 1785493441339.8801,
+    "hash": "513cb92ff7f8c0422462a2b2603912e2"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/buyer-portal-pages/compare-properties.html": {
+    "mtime": 1785498164729.635,
+    "hash": "8c37ba7778d82424467a52729fae1997"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/buyer-portal-pages/favourites.html": {
+    "mtime": 1785498208489.276,
+    "hash": "e85c7700afa9bb5b2645dd11d98000e8"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/buyer-portal-pages/home-page.html": {
+    "mtime": 1785497462142.9646,
+    "hash": "45bd7792f6c1b68eaf3bdc94c12e24b8"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/buyer-portal-pages/notification-page.html": {
+    "mtime": 1785498246150.7031,
+    "hash": "25d5110a7c779fe63d5b20396aa61c92"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/buyer-portal-pages/proprty-details-page.html": {
+    "mtime": 1785497619392.102,
+    "hash": "acf4027091d417457f4fbfce90c8dd25"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/buyer-portal-pages/society-details.html": {
+    "mtime": 1785497985338.6978,
+    "hash": "677f5c25a80b806327b584eea74e4ffa"
+  },
+  "C:/Users/KODEXO LABS/Desktop/fyp-frontend/rihaish-frontend/buyer-portal-pages/user-details.html": {
+    "mtime": 1785498271153.0022,
+    "hash": "7db4d9a08d41e0588e9374a4dd72901b"
   }
 }
