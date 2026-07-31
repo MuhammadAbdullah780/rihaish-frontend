@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Compare Properties | Rihaish Portal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Source+Serif+4:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#ffdad6",
+                        "primary-fixed": "#aaf1d9",
+                        "on-tertiary-fixed-variant": "#70362c",
+                        "on-secondary-fixed": "#131d25",
+                        "on-error": "#ffffff",
+                        "inverse-primary": "#8fd4bd",
+                        "tertiary-container": "#7d4036",
+                        "surface-container": "#e7eefc",
+                        "surface-tint": "#226a57",
+                        "tertiary": "#612a21",
+                        "on-primary-container": "#8dd2bb",
+                        "background-canvas": "#F6F7F6",
+                        "tertiary-fixed": "#ffdad4",
+                        "outline": "#6f7975",
+                        "secondary-container": "#d9e3f0",
+                        "on-primary-fixed-variant": "#005140",
+                        "on-surface-variant": "#3f4945",
+                        "inverse-surface": "#29313b",
+                        "tertiary-fixed-dim": "#ffb4a7",
+                        "primary": "#004334",
+                        "on-secondary-fixed-variant": "#3e4852",
+                        "surface": "#f8f9ff",
+                        "on-surface": "#141c25",
+                        "surface-variant": "#dbe3f0",
+                        "surface-dim": "#d3dbe7",
+                        "error": "#ba1a1a",
+                        "surface-container-low": "#eef4ff",
+                        "track-neutral": "#E3E7E4",
+                        "secondary": "#565f6a",
+                        "on-secondary-container": "#5b6570",
+                        "on-tertiary-container": "#ffb1a4",
+                        "on-tertiary": "#ffffff",
+                        "background": "#f8f9ff",
+                        "surface-bright": "#f8f9ff",
+                        "on-background": "#141c25",
+                        "primary-fixed-dim": "#8fd4bd",
+                        "stroke-institutional": "#0F1720",
+                        "secondary-fixed-dim": "#bdc7d4",
+                        "on-tertiary-fixed": "#390c06",
+                        "on-primary-fixed": "#002018",
+                        "on-error-container": "#93000a",
+                        "surface-container-high": "#e1e9f6",
+                        "secondary-fixed": "#d9e3f0",
+                        "surface-container-lowest": "#ffffff",
+                        "outline-variant": "#bfc9c3",
+                        "primary-container": "#0e5c4a",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#e9f1fe",
+                        "on-primary": "#ffffff",
+                        "surface-container-highest": "#dbe3f0",
+                        "brand-deep": "#0F1720",
+                        "brand-green": "#0E5C4A",
+                        "text-label": "#4A5560",
+                        "text-subtle": "#79838E",
+                        "highlight": "#FDF4E6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "property": "10px",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "unit": "4px",
+                        "max-width": "1280px",
+                        "gutter": "24px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-sm": ["\"Source Serif 4\""],
+                        "headline-md": ["\"Source Serif 4\""],
+                        "label-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "label-sm": ["Inter"],
+                        "body-md": ["Inter"],
+                        "display-lg": ["\"Source Serif 4\""]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: #F6F7F6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .tabular-nums {
+            font-variant-numeric: tabular-nums;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="font-body-md text-on-surface">
+<!-- TopNavBar -->
+<nav class="bg-surface-container-lowest h-[72px] w-full sticky top-0 z-50 border-b-2 border-track-neutral">
+<div class="flex justify-between items-center w-full px-margin-desktop max-w-max-width mx-auto h-full">
+<div class="flex items-center gap-6">
+<a class="flex items-center gap-2 text-on-surface hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">chevron_left</span>
+</a>
+<span class="font-display-lg text-[32px] font-bold text-primary">Rihaish</span>
+<div class="hidden md:flex items-center gap-8 ml-8">
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors font-label-md text-label-md" href="#">Marketplace</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors font-label-md text-label-md" href="#">Societies</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors font-label-md text-label-md" href="#">New Projects</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors font-label-md text-label-md" href="#">Insights</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-4">
+<button class="text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="favorite">favorite</span>
+</button>
+</div>
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A professional headshot of a verified real estate investment consultant for an institutional property platform. The individual is wearing a dark navy suit and looking directly at the camera with a confident, trustworthy expression. The background is a clean, minimalist architectural studio with large windows and soft natural daylight, aligning with an institutional and high-end aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDO-2zHJjj4Yd_kdFFVk8JRpzpr_ebg6tYkTVtiuN3g0aTEfRZampvLu86fNmGy2Sre7JJJTr8kUBFjrtpP8L72R3txvOzh-POt6k3ERA3Y556ghL2XY1glDXBWnH97i7IZF5JXpb24UOxGqERQUC3dZfjSFXufqnaIAUrS4Jpg9kTyKIRpK8lmrp_jKDIDE7INE91_sF4jyx3vJLWgp9eXoJKVOS4LgBHnBlZgb02Oik4EHnuBq4XQ"/>
+</div>
+</div>
+</div>
+</nav>
+<!-- Comparison Body -->
+<main class="max-w-[1280px] mx-auto px-[48px] pt-[32px] pb-[64px]">
+<!-- Header Row -->
+<div class="flex justify-between items-center mb-[24px]">
+<h1 class="font-semibold text-[26px] leading-[32px] text-brand-deep font-label-md">Compare properties</h1>
+<a class="flex items-center gap-1 font-medium text-[14px] text-brand-green hover:underline" href="#">
+<span class="material-symbols-outlined text-[18px]">add</span>
+                Add another property
+            </a>
+</div>
+<!-- Comparison Table Container -->
+<div class="bg-white border border-track-neutral rounded-property overflow-hidden">
+<table class="w-full border-collapse table-fixed">
+<thead>
+<tr>
+<!-- Label Column -->
+<th class="w-[200px] bg-white"></th>
+<!-- Property 1 Header -->
+<th class="p-4 align-top text-left font-normal border-l border-track-neutral">
+<div class="relative h-[133px] mb-4 overflow-hidden rounded-t-property">
+<img class="w-full h-full object-cover rounded-t-property" data-alt="A luxury residential property in DHA Phase 6, Lahore. A modern white architectural house with clean lines, large glass windows, and a manicured green lawn. The lighting is late afternoon golden hour, casting soft shadows. The overall style is institutional, clean, and professional, emphasizing high-end real estate and architectural precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDt36FO3Sj4-7LgjOD7nuJSAPZbvCdj1j0xyEL9b9aPOMG0bdWnGi7JFrns6dXzdFUU_Z12BvIBbcxjXtG-7R936KqlBytK6YnRetywZpqCpL0c06X5htOMiCIiJfvdvklRMuaqhcyZxd_qLUndXwaYaGLv8He05s5UquSDF9m6hN064Vkitgc0YUREIllD5dTsOqHNZwCe__REV7aWyT49lOUPknz3GI_70DUHuHT1bCHwmG0G_CpN"/>
+<button class="absolute top-2 right-2 bg-white/90 w-6 h-6 flex items-center justify-center rounded-sm hover:bg-white transition-colors">
+<span class="material-symbols-outlined text-[16px] text-brand-deep">close</span>
+</button>
+</div>
+<div class="tabular-nums font-semibold text-[18px] text-brand-deep">Rs 2.4 Crore</div>
+<div class="text-[12px] text-text-subtle font-normal mt-0.5">DHA Phase 6, Lahore</div>
+</th>
+<!-- Property 2 Header -->
+<th class="p-4 align-top text-left font-normal border-l border-track-neutral">
+<div class="relative h-[133px] mb-4 overflow-hidden rounded-t-property">
+<img class="w-full h-full object-cover rounded-t-property" data-alt="A sprawling modern villa in a premium residential society. The house features a combination of stone cladding and pristine white plaster with large balconies. The setting is a quiet, tree-lined street with high-end landscaping. The mood is serene and affluent, rendered with sharp focus and high clarity characteristic of institutional property photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3Yf5T7cYuSnEUid8agSI2CUH0obG4c5Q8cTaz0yg3mb6rJcXLPEIAsAjQR05NnB0CiRNT9kl79TTQTNDJFnYrDeNIkFvQrgVkxNzTKx7BrrWUvAidu2yBOCRwVtgf-wGQoQnGj7IMA20EVJE8ePgUGDfJmyM7JkpqnTo9Ue_gogMj0YJR3KkBznEN072tctEEyc7aKWWoKthgLKWuvlhUEeRBaL9f8G3gh4n-Okjt8uHBhnWTlGxN"/>
+<button class="absolute top-2 right-2 bg-white/90 w-6 h-6 flex items-center justify-center rounded-sm hover:bg-white transition-colors">
+<span class="material-symbols-outlined text-[16px] text-brand-deep">close</span>
+</button>
+</div>
+<div class="tabular-nums font-semibold text-[18px] text-brand-deep">Rs 2.8 Crore</div>
+<div class="text-[12px] text-text-subtle font-normal mt-0.5">Bahria Town, Lahore</div>
+</th>
+<!-- Property 3 Header -->
+<th class="p-4 align-top text-left font-normal border-l border-track-neutral">
+<div class="relative h-[133px] mb-4 overflow-hidden rounded-t-property">
+<img class="w-full h-full object-cover rounded-t-property" data-alt="An empty premium residential plot ready for construction in a high-growth institutional development area. The land is flat, demarcated by survey markers, with paved wide roads and underground utilities visible in the background. Clear blue sky and professional architectural survey feel, focusing on land investment potential and structural readiness." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJeTzFkC9c-r00esxVgfF9AYjx0vh-X9kFfWddw3IZb7AwdpSCi8oRmp-jtPIpbvaJfWOdvIrKUjt0qcgJW-IHoxd7ExD6WWtjhiYYBEO2DOZi4wb6qZryDr6bIbk9rmq6RAIebWrX0ZcRZiyXbIzK1phRf0D7R3Ce29npyKbTvA32_5MhWaqu74LFbEvsytxZ0hIhI1pkEFe3Swcb55BerQjJicuOvTiBsh_y2L4v8C-cd7wYrE9W"/>
+<button class="absolute top-2 right-2 bg-white/90 w-6 h-6 flex items-center justify-center rounded-sm hover:bg-white transition-colors">
+<span class="material-symbols-outlined text-[16px] text-brand-deep">close</span>
+</button>
+</div>
+<div class="tabular-nums font-semibold text-[18px] text-brand-deep">Rs 1.8 Crore</div>
+<div class="text-[12px] text-text-subtle font-normal mt-0.5">Gulberg III, Lahore</div>
+</th>
+</tr>
+</thead>
+<tbody class="text-brand-deep">
+<!-- Type -->
+<tr class="h-[56px] border-t border-track-neutral">
+<td class="px-4 text-[13px] font-medium text-text-label">Type</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">House</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">House</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">Plot</td>
+</tr>
+<!-- Area -->
+<tr class="h-[56px] border-t border-track-neutral">
+<td class="px-4 text-[13px] font-medium text-text-label">Area</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">10 Marla</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">12 Marla</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">10 Marla</td>
+</tr>
+<!-- Bedrooms -->
+<tr class="h-[56px] border-t border-track-neutral">
+<td class="px-4 text-[13px] font-medium text-text-label">Bedrooms</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral tabular-nums">5</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral tabular-nums">6</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">—</td>
+</tr>
+<!-- Bathrooms -->
+<tr class="h-[56px] border-t border-track-neutral">
+<td class="px-4 text-[13px] font-medium text-text-label">Bathrooms</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral tabular-nums">6</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral tabular-nums">6</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">—</td>
+</tr>
+<!-- Price per Marla -->
+<tr class="h-[56px] border-t border-track-neutral">
+<td class="px-4 text-[13px] font-medium text-text-label">Price per Marla</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral tabular-nums">Rs 24 Lakh</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral tabular-nums">Rs 20 Lakh</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral tabular-nums">Rs 18 Lakh</td>
+</tr>
+<!-- Investment score (Highlighted Difference) -->
+<tr class="h-[56px] border-t border-track-neutral bg-highlight">
+<td class="px-4 text-[13px] font-medium text-text-label">Investment score</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral tabular-nums font-semibold">78</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral tabular-nums font-semibold">65</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral tabular-nums font-semibold">82</td>
+</tr>
+<!-- Possession -->
+<tr class="h-[56px] border-t border-track-neutral">
+<td class="px-4 text-[13px] font-medium text-text-label">Possession</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">Ready</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">Ready</td>
+<td class="px-4 text-center text-[14px] border-l border-track-neutral">Under construction</td>
+</tr>
+<!-- Verified -->
+<tr class="h-[56px] border-t border-track-neutral">
+<td class="px-4 text-[13px] font-medium text-text-label">Verified</td>
+<td class="px-4 text-center border-l border-track-neutral">
+<span class="material-symbols-outlined text-brand-green text-[20px]">check_circle</span>
+</td>
+<td class="px-4 text-center border-l border-track-neutral">
+<span class="material-symbols-outlined text-brand-green text-[20px]">check_circle</span>
+</td>
+<td class="px-4 text-center border-l border-track-neutral">—</td>
+</tr>
+<!-- Footer Row / Buttons -->
+<tr class="h-[72px] border-t border-track-neutral">
+<td class="px-4"></td>
+<td class="px-4 text-center border-l border-track-neutral">
+<button class="h-[36px] w-full max-w-[140px] border-2 border-brand-green text-brand-green font-medium text-[13px] hover:bg-brand-green hover:text-white transition-all">
+                                Contact seller
+                            </button>
+</td>
+<td class="px-4 text-center border-l border-track-neutral">
+<button class="h-[36px] w-full max-w-[140px] border-2 border-brand-green text-brand-green font-medium text-[13px] hover:bg-brand-green hover:text-white transition-all">
+                                Contact seller
+                            </button>
+</td>
+<td class="px-4 text-center border-l border-track-neutral">
+<button class="h-[36px] w-full max-w-[140px] border-2 border-brand-green text-brand-green font-medium text-[13px] hover:bg-brand-green hover:text-white transition-all">
+                                Contact seller
+                            </button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Footer Caption -->
+<p class="mt-[32px] text-center text-[13px] text-text-subtle font-normal">
+            Comparisons are saved for 24 hours
+        </p>
+</main>
+<!-- Global Footer -->
+<footer class="bg-surface-container-highest py-8 border-t-2 border-track-neutral mt-auto">
+<div class="w-full px-margin-desktop max-w-max-width mx-auto flex flex-col md:flex-row justify-between items-center gap-gutter">
+<div class="flex flex-col gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">Rihaish</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">© 2024 Rihaish Institutional Property Platform. All rights reserved.</p>
+</div>
+<div class="flex gap-8">
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Cadastral Data Source</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Contact Support</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple interaction for remove buttons
+        document.querySelectorAll('th button').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const cell = e.target.closest('th');
+                const index = cell.cellIndex;
+                if(index > 0) {
+                    alert('Remove functionality would trigger property removal from comparison state.');
+                }
+            });
+        });
+
+        // Highlight differences logic (simulated for the static request)
+        // The Investment score and other differing rows are handled via CSS classes 
+        // as per the requirement for #FDF4E6 fill.
+    </script>
+</body></html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Property Details - Rihaish</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Source+Serif+4:wght@100..900&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-surface-variant": "#3f4945",
+            "on-tertiary-container": "#ffb1a4",
+            "secondary-container": "#d9e3f0",
+            "tertiary-fixed-dim": "#ffb4a7",
+            "outline": "#6f7975",
+            "on-error-container": "#93000a",
+            "surface-bright": "#f8f9ff",
+            "on-background": "#141c25",
+            "surface-dim": "#d3dbe7",
+            "surface-container-high": "#e1e9f6",
+            "primary-fixed": "#aaf1d9",
+            "on-primary-fixed": "#002018",
+            "tertiary-fixed": "#ffdad4",
+            "surface-container": "#e7eefc",
+            "background-canvas": "#F6F7F6",
+            "on-tertiary-fixed-variant": "#70362c",
+            "on-surface": "#141c25",
+            "on-primary": "#ffffff",
+            "inverse-primary": "#8fd4bd",
+            "secondary-fixed": "#d9e3f0",
+            "primary": "#004334",
+            "on-tertiary-fixed": "#390c06",
+            "surface-variant": "#dbe3f0",
+            "primary-container": "#0e5c4a",
+            "on-secondary": "#ffffff",
+            "background": "#f8f9ff",
+            "outline-variant": "#bfc9c3",
+            "surface-container-lowest": "#ffffff",
+            "on-secondary-fixed-variant": "#3e4852",
+            "on-tertiary": "#ffffff",
+            "inverse-surface": "#29313b",
+            "error-container": "#ffdad6",
+            "surface-container-low": "#eef4ff",
+            "secondary": "#565f6a",
+            "surface": "#f8f9ff",
+            "surface-tint": "#226a57",
+            "secondary-fixed-dim": "#bdc7d4",
+            "on-primary-container": "#8dd2bb",
+            "tertiary-container": "#7d4036",
+            "surface-container-highest": "#dbe3f0",
+            "error": "#ba1a1a",
+            "on-secondary-container": "#5b6570",
+            "on-error": "#ffffff",
+            "stroke-institutional": "#0F1720",
+            "track-neutral": "#E3E7E4",
+            "tertiary": "#612a21",
+            "primary-fixed-dim": "#8fd4bd",
+            "inverse-on-surface": "#e9f1fe",
+            "on-primary-fixed-variant": "#005140",
+            "on-secondary-fixed": "#131d25",
+            "brand-green": "#0E5C4A",
+            "terracotta": "#B4623A",
+            "text-dark": "#0F1720",
+            "text-muted": "#4A5560",
+            "text-light": "#79838E"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "10px",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "max-width": "1280px",
+            "margin-desktop": "64px",
+            "gutter": "24px",
+            "margin-mobile": "16px",
+            "unit": "4px"
+          },
+          "fontFamily": {
+            "body-lg": ["Inter"],
+            "display-lg": ["\"Source Serif 4\""],
+            "body-md": ["Inter"],
+            "label-sm": ["Inter"],
+            "headline-md": ["\"Source Serif 4\""],
+            "label-md": ["Inter"],
+            "headline-sm": ["\"Source Serif 4\""]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      font-size: 20px;
+    }
+    .circular-gauge {
+      transform: rotate(-90deg);
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="bg-background-canvas min-h-screen font-body-md text-on-surface">
+<!-- Top Navigation Bar -->
+<header class="bg-white h-[72px] border-b border-track-neutral sticky top-0 z-50 flex items-center justify-between px-margin-desktop">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined cursor-pointer text-text-dark" data-icon="chevron_left">chevron_left</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-2xl" data-icon="home_pin" style="font-variation-settings: 'FILL' 1;">home_pin</span>
+<span class="font-headline-sm text-text-dark text-[20px] font-semibold tracking-tight" style="font-family: 'Source Serif 4'">rihaish</span>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-text-dark cursor-pointer" data-icon="favorite">favorite</span>
+<div class="relative cursor-pointer">
+<span class="material-symbols-outlined text-text-dark" data-icon="notifications">notifications</span>
+<div class="absolute top-0 right-0 w-2 h-2 bg-error rounded-full border border-white"></div>
+</div>
+<div class="w-8 h-8 rounded-full bg-surface-container overflow-hidden border border-track-neutral">
+<img class="w-full h-full object-cover" data-alt="A professional headshot of a middle-aged South Asian man wearing a clean, modern white shirt. The background is a soft, out-of-focus office setting with neutral tones. The lighting is natural and sophisticated, matching an institutional minimalism aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9aiMGXlgCHPtJURf5OVsiUNZX3C81jBvi4QL6cobszsfrz3bJCvIaZ9WP49CPJe5n7-LVKqbsjhoPKjztpXeq9e9ItRcNrokMwZOlGYlmjTvO1ejOMjuWnXxjqLcdNfmOMGxiJDH0z0XMbkcwMZdHuspQl4uiC7sZfVzuv5VvoHM-2SNQ85hdc84NiHAOxa87qbXTpyLGlQkMitHd-XfXtdIP4ygCNcayb669j6XuJOimeKw0Sn69"/>
+</div>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="max-w-max-width mx-auto px-12 pt-8 pb-20">
+<div class="flex flex-col lg:flex-row gap-8">
+<!-- Left Column -->
+<section class="w-full lg:w-[760px] space-y-8">
+<!-- Carousel Container -->
+<div class="relative w-full h-[420px] rounded-lg overflow-hidden border-2 border-track-neutral group">
+<img class="w-full h-full object-cover" data-alt="A luxurious modern Pakistani house in DHA Lahore with clean architectural lines, large glass windows, and a mix of white plaster and wood accents. The property features a manicured lawn and a dramatic evening sky with warm interior lighting glowing through the windows. The shot is captured with professional wide-angle architectural photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6MjsW7drwuVNJw2EG_ziRxI7zm2gZ5FOUCwmQXJa-DVvp_LocURm74h3hTUkv8RYrl1NgqcDvwcJOvgN9REhHuwy8AFQkjFNM47qMjOcYP5JuoKZPtGriakh7isEADbqfk1JhfPipm3W-tnYYG5HsbZje5ssgCiESCz-B1CWQQ4NQ-cEcUsFdFRAqystDXMtkryjvpdis_Auz4ITyZA4wnr2H3YpNXqo9ClYQtyftXzizahowSztV"/>
+<!-- Verified Pill -->
+<div class="absolute top-4 left-4 bg-[#E8F1ED] text-[#1E7F4F] px-3 py-1 rounded-full flex items-center gap-1.5 border border-[#1E7F4F]/20">
+<span class="material-symbols-outlined text-[16px]" data-icon="verified" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="text-label-sm font-semibold tracking-wide">Verified</span>
+</div>
+<!-- Counter Pill -->
+<div class="absolute bottom-4 right-4 bg-[#0F1720]/60 text-white px-3 py-1 rounded-full text-label-sm font-medium backdrop-blur-sm">
+            1 / 12
+          </div>
+<!-- Dot Indicators -->
+<div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+<div class="w-2 h-2 rounded-full bg-white"></div>
+<div class="w-2 h-2 rounded-full bg-white/40"></div>
+<div class="w-2 h-2 rounded-full bg-white/40"></div>
+<div class="w-2 h-2 rounded-full bg-white/40"></div>
+<div class="w-2 h-2 rounded-full bg-white/40"></div>
+<div class="w-2 h-2 rounded-full bg-white/40"></div>
+</div>
+</div>
+<!-- Tab Row -->
+<div class="border-b border-track-neutral">
+<nav class="flex gap-8">
+<button class="pb-3 text-[15px] font-medium text-text-dark border-b-2 border-brand-green">Overview</button>
+<button class="pb-3 text-[15px] font-medium text-text-muted hover:text-text-dark transition-colors">Facilities</button>
+<button class="pb-3 text-[15px] font-medium text-text-muted hover:text-text-dark transition-colors">Location</button>
+</nav>
+</div>
+<!-- Overview Text -->
+<article class="space-y-4">
+<p class="text-[15px] text-text-muted leading-relaxed font-body-md">
+            Nestled in the prime location of DHA Phase 6, this exquisite 10 Marla modern residence offers an unparalleled blend of luxury and functionality. Designed by renowned architects, the property boasts high-end finishes, Italian tiles, and imported sanitary fittings throughout. 
+          </p>
+<p class="text-[15px] text-text-muted leading-relaxed font-body-md">
+            The spacious layout includes five master bedrooms with ensuite bathrooms, a designer kitchen, and multiple lounging areas. The house is strategically positioned to ensure maximum natural ventilation and sunlight, providing an airy, tranquil atmosphere for a modern family lifestyle.
+          </p>
+</article>
+<!-- Spec Grid -->
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+<!-- Area -->
+<div class="bg-white p-4 rounded-lg border border-track-neutral flex flex-col gap-1">
+<span class="material-symbols-outlined text-text-light mb-1" data-icon="square_foot">square_foot</span>
+<span class="text-[16px] font-semibold text-text-dark font-body-lg">10 Marla</span>
+<span class="text-label-sm text-text-light uppercase tracking-wider">Area</span>
+</div>
+<!-- Bedrooms -->
+<div class="bg-white p-4 rounded-lg border border-track-neutral flex flex-col gap-1">
+<span class="material-symbols-outlined text-text-light mb-1" data-icon="bed">bed</span>
+<span class="text-[16px] font-semibold text-text-dark font-body-lg">5</span>
+<span class="text-label-sm text-text-light uppercase tracking-wider">Bedrooms</span>
+</div>
+<!-- Bathrooms -->
+<div class="bg-white p-4 rounded-lg border border-track-neutral flex flex-col gap-1">
+<span class="material-symbols-outlined text-text-light mb-1" data-icon="bathtub">bathtub</span>
+<span class="text-[16px] font-semibold text-text-dark font-body-lg">6</span>
+<span class="text-label-sm text-text-light uppercase tracking-wider">Bathrooms</span>
+</div>
+<!-- Year -->
+<div class="bg-white p-4 rounded-lg border border-track-neutral flex flex-col gap-1">
+<span class="material-symbols-outlined text-text-light mb-1" data-icon="calendar_today">calendar_today</span>
+<span class="text-[16px] font-semibold text-text-dark font-body-lg">2020</span>
+<span class="text-label-sm text-text-light uppercase tracking-wider">Year Built</span>
+</div>
+<!-- Ownership -->
+<div class="bg-white p-4 rounded-lg border border-track-neutral flex flex-col gap-1">
+<span class="material-symbols-outlined text-text-light mb-1" data-icon="description">description</span>
+<span class="text-[16px] font-semibold text-text-dark font-body-lg">Freehold</span>
+<span class="text-label-sm text-text-light uppercase tracking-wider">Ownership</span>
+</div>
+<!-- Possession -->
+<div class="bg-white p-4 rounded-lg border border-track-neutral flex flex-col gap-1">
+<span class="material-symbols-outlined text-text-light mb-1" data-icon="key">key</span>
+<span class="text-[16px] font-semibold text-text-dark font-body-lg">Ready</span>
+<span class="text-label-sm text-text-light uppercase tracking-wider">Possession</span>
+</div>
+</div>
+</section>
+<!-- Right Column (Sticky Panel) -->
+<aside class="flex-1">
+<div class="bg-white rounded-lg border border-track-neutral p-6 sticky top-28 space-y-6">
+<div class="space-y-1">
+<h2 class="text-[34px] font-semibold text-text-dark tabular-nums leading-none">Rs 2.4 Crore</h2>
+<div class="flex items-center gap-1 text-text-light">
+<span class="material-symbols-outlined text-[18px]" data-icon="location_on">location_on</span>
+<span class="text-label-md">DHA Phase 6, Lahore</span>
+</div>
+</div>
+<hr class="border-track-neutral"/>
+<!-- Investment Score -->
+<div class="flex items-center gap-4">
+<div class="relative w-[44px] h-[44px]">
+<svg class="w-full h-full circular-gauge" viewbox="0 0 36 36">
+<circle class="stroke-track-neutral" cx="18" cy="18" fill="none" r="16" stroke-width="3"></circle>
+<circle class="stroke-terracotta" cx="18" cy="18" fill="none" r="16" stroke-dasharray="75, 100" stroke-linecap="round" stroke-width="3"></circle>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="text-[14px] font-semibold text-text-dark tabular-nums">78</span>
+</div>
+</div>
+<div>
+<p class="text-label-md font-semibold text-text-dark">AI Investment Score</p>
+<p class="text-label-sm text-text-muted">Good long-term appreciation potential</p>
+</div>
+</div>
+<!-- Predicted Price -->
+<div class="bg-surface-container-low p-4 rounded-lg border border-track-neutral">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-terracotta" data-icon="trending_up">trending_up</span>
+<span class="text-[13px] font-medium text-text-dark">Predicted price</span>
+</div>
+<span class="text-[13px] font-semibold text-terracotta tabular-nums">+8.3%</span>
+</div>
+<p class="text-[13px] text-text-dark">Rs 2.6 Crore <span class="text-text-muted">in 12 months</span></p>
+</div>
+<!-- CTA Buttons -->
+<div class="space-y-3">
+<button class="w-full h-12 bg-brand-green text-white font-semibold text-[15px] rounded-md hover:bg-primary transition-colors active:scale-[0.98]">
+              Contact seller
+            </button>
+<button class="w-full h-12 bg-white text-text-dark border border-track-neutral font-semibold text-[15px] rounded-md flex items-center justify-center gap-2 hover:bg-surface-container transition-colors active:scale-[0.98]">
+<span class="material-symbols-outlined" data-icon="favorite">favorite</span>
+              Save to favorites
+            </button>
+</div>
+<!-- Map Snippet -->
+<div class="space-y-2">
+<div class="w-full h-40 rounded-lg border border-track-neutral relative overflow-hidden">
+<div class="absolute inset-0 grayscale opacity-70" data-location="DHA Phase 6, Lahore" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAe2qYS5d2N9_jaIN3nsQGgQIv1noZCaKycrsFgu6-mVm_KEP94bIgJA5rxgoIiHQ2S-THUB4GVWzqqEJJNLjL4wTtAjg_R7Rf00ikfS_-pxm2VGZeZqCVzS0BqSpzULR9B-xim-8tx3GlJ7XZ5hj2v5dKHBiWG_7kslXAYYEzviJ0FIAr0imCGA8NLMG_-35UW6GmSst40IFxcF8H1UjQr7TSTJFOZzX2u5TSHxmbDEW4vKGnLpIOI')"></div>
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<span class="material-symbols-outlined text-brand-green text-[32px] drop-shadow-sm" data-icon="location_on" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 text-label-md font-semibold text-brand-green hover:underline" href="#">
+              View on map
+              <span class="material-symbols-outlined text-[16px]" data-icon="open_in_new">open_in_new</span>
+</a>
+</div>
+</div>
+</aside>
+</div>
+<!-- Similar Listings Section -->
+<section class="mt-16 space-y-6">
+<h3 class="text-[22px] font-semibold text-text-dark">Similar listings</h3>
+<div class="flex gap-6 overflow-x-auto no-scrollbar pb-4 -mx-4 px-4">
+<!-- Property Card 1 -->
+<div class="min-w-[280px] w-[280px] bg-white border border-track-neutral rounded-lg overflow-hidden flex flex-col group cursor-pointer">
+<div class="h-44 relative">
+<img class="w-full h-full object-cover" data-alt="A stylish modern house exterior with geometric balcony and stone cladding. Daylight photography with high clarity, institutional minimalist style, architectural focus." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBecqVtIvIx816dPb5qqUadyxNRGncBXZ_-0rv6ll_Su-yXJLGrT6E1bFxFL3_c99OonP6U-jK9ZFY-uh_DQSB4hDsC8aJAqbuv4yvqWIcJjOOkq4CB82Fj1QNBaP0tRL1-CvnatyeMxv30ETxwezZ8WmwScJh0OrVm76rsAwB_H98r_dkLycjG83cZU-qMimbZ1IPu5PohiNK4kEj5h3wUU01uSRHSrdQyu8woRNggvjSQseC8h0PX"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border border-[#1E7F4F]/20">Verified</div>
+</div>
+<div class="p-4 space-y-2">
+<p class="text-[18px] font-semibold text-text-dark tabular-nums leading-tight">Rs 2.2 Crore</p>
+<p class="text-label-sm text-text-light">DHA Phase 5, Lahore</p>
+<div class="flex items-center gap-4 text-text-muted text-label-sm pt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="bed">bed</span> 5</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="bathtub">bathtub</span> 5</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="square_foot">square_foot</span> 10m</span>
+</div>
+</div>
+</div>
+<!-- Property Card 2 -->
+<div class="min-w-[280px] w-[280px] bg-white border border-track-neutral rounded-lg overflow-hidden flex flex-col group cursor-pointer">
+<div class="h-44 relative">
+<img class="w-full h-full object-cover" data-alt="Minimalist urban villa with large floor to ceiling windows and a clean white facade. Soft golden hour light, architectural photography, institutional minimalism." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKEXnzAlasCJWAc67x_8mI6z_RJqFVClzhQiF5DtgQfkLCeoewutNXlkfBc80B4oh9ZknbdPB-6-RMK85ar1haWbzb1pUI__ahvwwmogHu65-vl-2aMB6NR_GInzNrzBahMyAIU0F9WceBEDQFZ0fgy4wfPBMcmzPZ9sKwh2U7vYCbixsffZrbC0j70nVRusw8JG_IphLqyPPpAyg2AsmrRY7Jrp_i3ygY3qREKWyDxnOz6a5WMJNJ"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border border-[#1E7F4F]/20">Verified</div>
+</div>
+<div class="p-4 space-y-2">
+<p class="text-[18px] font-semibold text-text-dark tabular-nums leading-tight">Rs 2.8 Crore</p>
+<p class="text-label-sm text-text-light">DHA Phase 6, Lahore</p>
+<div class="flex items-center gap-4 text-text-muted text-label-sm pt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="bed">bed</span> 6</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="bathtub">bathtub</span> 7</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="square_foot">square_foot</span> 12m</span>
+</div>
+</div>
+</div>
+<!-- Property Card 3 -->
+<div class="min-w-[280px] w-[280px] bg-white border border-track-neutral rounded-lg overflow-hidden flex flex-col group cursor-pointer">
+<div class="h-44 relative">
+<img class="w-full h-full object-cover" data-alt="A contemporary twin villa design with symmetric architectural elements and elegant outdoor lighting. Daytime shot, clean sky, modern Pakistan real estate aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoF6tM5DGAUYjhwQ-tTXIeJSO8foVo_wx1xvI0KDzdJfWn9kddnDHXKJSg_uTIPYYzjG4kInzZ82R2avtqb0juqaEDo1CRyTQ6stuXVMR48mXUyYJE--akCb-tU2Z_1NGG3AgHejG06qg7QHuGMbYUnfhr-tVYTOteVpqjFGmAy87Q_pvajI2BlyuaVBMmuduSv8mm_eFA8TrWnzMsIGRswPJQg214WHeoRFzuGKfb59iTtOFLbkET"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border border-[#1E7F4F]/20">Verified</div>
+</div>
+<div class="p-4 space-y-2">
+<p class="text-[18px] font-semibold text-text-dark tabular-nums leading-tight">Rs 2.5 Crore</p>
+<p class="text-label-sm text-text-light">State Life, Lahore</p>
+<div class="flex items-center gap-4 text-text-muted text-label-sm pt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="bed">bed</span> 5</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="bathtub">bathtub</span> 6</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="square_foot">square_foot</span> 10m</span>
+</div>
+</div>
+</div>
+<!-- Property Card 4 -->
+<div class="min-w-[280px] w-[280px] bg-white border border-track-neutral rounded-lg overflow-hidden flex flex-col group cursor-pointer">
+<div class="h-44 relative">
+<img class="w-full h-full object-cover" data-alt="Corner lot property with unique modern architectural features and greenery on the facade. High-end property photography for a premium real estate platform." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrTGJSHhbEHKYo2MFtZirQabNE959bqur29rU8z-9WTHsZFdzvvndoq_eOyXOmafh75ew5eKHzPV96RiJCdtNiz5qjHTyzNveEvZ6c8or6JeHm7uRLmsbfEAelUqzHC2ME4UowyDlkgjAF9CtGGn6LwcThw9N-FmTzZ2PvNDyI0-rrG_oNACwdHFcTgdlN84pNEz1K8OlXJWkruitI5-qGQM30EUfR64z6poUFySUhx2v5t10A-IwV"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border border-[#1E7F4F]/20">Verified</div>
+</div>
+<div class="p-4 space-y-2">
+<p class="text-[18px] font-semibold text-text-dark tabular-nums leading-tight">Rs 2.3 Crore</p>
+<p class="text-label-sm text-text-light">Askari 11, Lahore</p>
+<div class="flex items-center gap-4 text-text-muted text-label-sm pt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="bed">bed</span> 5</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="bathtub">bathtub</span> 5</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="square_foot">square_foot</span> 10m</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-surface-dim border-t border-track-neutral py-12 mt-12">
+<div class="max-w-max-width mx-auto px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl" data-icon="home_pin" style="font-variation-settings: 'FILL' 1;">home_pin</span>
+<span class="font-headline-sm text-text-dark text-[18px] font-semibold tracking-tight" style="font-family: 'Source Serif 4'">rihaish</span>
+</div>
+<p class="text-label-sm text-text-muted">© 2024 Rihaish Real Estate. All rights reserved.</p>
+</div>
+<div class="flex gap-8">
+<a class="text-label-sm text-text-muted hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="text-label-sm text-text-muted hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-label-sm text-text-muted hover:text-primary transition-colors" href="#">Contact Support</a>
+</div>
+</div>
+</footer>
+<script>
+    // Lightweight micro-interaction for tab switching simulation
+    document.querySelectorAll('nav button').forEach(button => {
+      button.addEventListener('click', () => {
+        document.querySelectorAll('nav button').forEach(btn => {
+          btn.classList.remove('text-text-dark', 'border-b-2', 'border-brand-green');
+          btn.classList.add('text-text-muted');
+        });
+        button.classList.add('text-text-dark', 'border-b-2', 'border-brand-green');
+        button.classList.remove('text-text-muted');
+      });
+    });
+
+    // Horizontal scroll button interaction logic (optional additions)
+    const scrollContainer = document.querySelector('.no-scrollbar');
+    if (scrollContainer) {
+      scrollContainer.addEventListener('wheel', (evt) => {
+        evt.preventDefault();
+        scrollContainer.scrollLeft += evt.deltaY;
+      });
+    }
+  </script>
+</body></html>

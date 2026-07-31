@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Rihaish - Society Details</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-tint": "#226a57",
+                    "secondary": "#565f6a",
+                    "on-surface": "#141c25",
+                    "primary-fixed": "#aaf1d9",
+                    "on-tertiary-fixed-variant": "#70362c",
+                    "surface-container-high": "#e1e9f6",
+                    "on-tertiary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "track-neutral": "#E3E7E4",
+                    "tertiary-fixed-dim": "#ffb4a7",
+                    "background-canvas": "#F6F7F6",
+                    "surface": "#f8f9ff",
+                    "error": "#ba1a1a",
+                    "surface-container": "#e7eefc",
+                    "tertiary": "#612a21",
+                    "background": "#f8f9ff",
+                    "on-background": "#141c25",
+                    "secondary-fixed": "#d9e3f0",
+                    "on-tertiary-fixed": "#390c06",
+                    "on-secondary-fixed-variant": "#3e4852",
+                    "primary-fixed-dim": "#8fd4bd",
+                    "on-primary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary-container": "#d9e3f0",
+                    "surface-container-low": "#eef4ff",
+                    "outline": "#6f7975",
+                    "surface-variant": "#dbe3f0",
+                    "stroke-institutional": "#0F1720",
+                    "inverse-primary": "#8fd4bd",
+                    "inverse-surface": "#29313b",
+                    "tertiary-container": "#7d4036",
+                    "primary-container": "#0e5c4a",
+                    "on-secondary": "#ffffff",
+                    "on-secondary-fixed": "#131d25",
+                    "on-primary-fixed-variant": "#005140",
+                    "tertiary-fixed": "#ffdad4",
+                    "on-primary-fixed": "#002018",
+                    "surface-container-highest": "#dbe3f0",
+                    "on-secondary-container": "#5b6570",
+                    "secondary-fixed-dim": "#bdc7d4",
+                    "surface-bright": "#f8f9ff",
+                    "outline-variant": "#bfc9c3",
+                    "on-surface-variant": "#3f4945",
+                    "on-primary-container": "#8dd2bb",
+                    "primary": "#004334",
+                    "surface-dim": "#d3dbe7",
+                    "inverse-on-surface": "#e9f1fe",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-container": "#ffb1a4"
+            },
+            "borderRadius": {
+                    "DEFAULT": "4px",
+                    "lg": "8px",
+                    "xl": "12px",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "max-width": "1280px",
+                    "gutter": "24px",
+                    "unit": "4px",
+                    "margin-desktop": "64px",
+                    "margin-mobile": "16px"
+            },
+            "fontFamily": {
+                    "display-lg": ["\"Source Serif 4\""],
+                    "headline-sm": ["\"Source Serif 4\""],
+                    "body-lg": ["Inter"],
+                    "headline-md": ["\"Source Serif 4\""],
+                    "body-md": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "label-md": ["Inter"]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        body {
+            background-color: #F6F7F6;
+            color: #141c25;
+            -webkit-font-smoothing: antialiased;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .cadastral-grid {
+            background-image: 
+                linear-gradient(to right, #E3E7E4 1px, transparent 1px),
+                linear-gradient(to bottom, #E3E7E4 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+        .scrim-gradient {
+            background: linear-gradient(to top, rgba(15, 23, 32, 0.9) 0%, rgba(15, 23, 32, 0.4) 40%, transparent 100%);
+        }
+        .tabular-nums { font-variant-numeric: tabular-nums; }
+    </style>
+</head>
+<body class="font-body-md">
+<!-- TOP NAVIGATION BAR -->
+<nav class="fixed top-0 left-0 w-full z-50 h-[72px] bg-white border-b border-[#E3E7E4] px-margin-desktop flex items-center justify-between">
+<div class="flex items-center gap-4">
+<button class="flex items-center justify-center p-2 hover:bg-surface-container-low transition-colors duration-150">
+<span class="material-symbols-outlined text-primary">arrow_back</span>
+</button>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">domain</span>
+<h1 class="font-display-lg text-[24px] font-semibold text-primary tracking-tight">Rihaish</h1>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-secondary hover:text-primary cursor-pointer">notifications</span>
+<span class="material-symbols-outlined text-secondary hover:text-primary cursor-pointer">account_circle</span>
+</div>
+</nav>
+<!-- MAIN CONTENT SCROLL AREA -->
+<main class="pt-[72px]">
+<!-- COVER SECTION -->
+<section class="relative w-full h-[320px] overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A professional architectural photograph of a premium gated residential community in Pakistan. The wide asphalt street is perfectly maintained, lined with modern white villas featuring clean geometric lines. The sky is a clear, soft blue during the golden hour, casting warm, institutional-grade light across the landscape. The scene exudes safety, order, and high-value real estate development in the LandVerify institutional style." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDwGwB3hnctZhk44h6L4VXcvURZCxj4xxCSS0FDrWu_rjThX5kModg19OfkA2Dqg7-fEozBD3-s4yuU16YgFv6CtFL0n1atbaXTlPwifLUbFkcmpUxFFx-_8cJutEpWTOrYwLM50CphggGT8AJBwBsXWceMsMNOZMw-rYtdntrFOR6jkOIYT56X8muwNJGdI4RzAy_W_imCsRzNvT3Lccm5DjShQlHkSfymfGo4qRD8zUYfTcnT8M-G')"></div>
+<div class="absolute inset-0 scrim-gradient flex flex-col justify-end p-margin-desktop pb-12">
+<div class="max-w-max-width mx-auto w-full relative">
+<h2 class="font-display-lg text-[34px] leading-tight text-white mb-1">Bahria Town Phase 8</h2>
+<p class="font-body-md text-[15px] text-white opacity-85">Lahore, Punjab</p>
+<!-- Govt Approved Pill -->
+<div class="absolute top-[-220px] right-0 flex items-center gap-2 px-4 py-2 bg-[#E8F1ED] rounded-full border border-[#1E7F4F]/20">
+<span class="material-symbols-outlined text-[#1E7F4F] text-lg" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-label-md text-[#1E7F4F] font-semibold uppercase tracking-wider">Government Approved</span>
+</div>
+</div>
+</div>
+</section>
+<!-- BODY CONTAINER -->
+<div class="max-w-max-width mx-auto px-margin-desktop py-12">
+<!-- STATS ROW -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+<div class="bg-white p-5 border border-[#E3E7E4] rounded-[10px]">
+<p class="font-label-sm text-secondary uppercase mb-2">Total Plots</p>
+<p class="font-body-lg text-2xl font-semibold tabular-nums">1,200</p>
+</div>
+<div class="bg-white p-5 border border-[#E3E7E4] rounded-[10px]">
+<p class="font-label-sm text-secondary uppercase mb-2">Available</p>
+<p class="font-body-lg text-2xl font-semibold tabular-nums">340</p>
+</div>
+<div class="bg-white p-5 border border-[#E3E7E4] rounded-[10px]">
+<p class="font-label-sm text-secondary uppercase mb-2">Occupancy</p>
+<p class="font-body-lg text-2xl font-semibold tabular-nums">89%</p>
+</div>
+<div class="bg-white p-5 border border-[#E3E7E4] rounded-[10px]">
+<p class="font-label-sm text-secondary uppercase mb-2">Amenities</p>
+<p class="font-body-lg text-2xl font-semibold tabular-nums">12</p>
+</div>
+</div>
+<!-- TAB NAVIGATION -->
+<div class="border-b border-[#E3E7E4] flex gap-8 mb-8">
+<button class="pb-4 font-body-md text-[15px] font-medium text-secondary hover:text-primary transition-colors">Utilities</button>
+<button class="pb-4 font-body-md text-[15px] font-medium text-primary border-b-2 border-[#0E5C4A]">Facilities</button>
+<button class="pb-4 font-body-md text-[15px] font-medium text-secondary hover:text-primary transition-colors">Plots</button>
+<button class="pb-4 font-body-md text-[15px] font-medium text-secondary hover:text-primary transition-colors">Lease status</button>
+</div>
+<!-- TWO COLUMN LAYOUT FOR CONTENT -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- LEFT COLUMN: FACILITIES & TIMELINE -->
+<div class="lg:col-span-8 space-y-12">
+<!-- FACILITIES GRID -->
+<div>
+<h3 class="font-headline-sm mb-6 text-on-surface">Community Facilities</h3>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+<!-- Facility Item 1 -->
+<div class="bg-white p-6 border border-[#E3E7E4] rounded-[10px] flex flex-col items-center gap-3 transition-colors hover:border-primary">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[24px]">school</span>
+<span class="font-label-md font-medium">School</span>
+</div>
+<div class="bg-white p-6 border border-[#E3E7E4] rounded-[10px] flex flex-col items-center gap-3 transition-colors hover:border-primary">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[24px]">medical_services</span>
+<span class="font-label-md font-medium">Hospital</span>
+</div>
+<div class="bg-white p-6 border border-[#E3E7E4] rounded-[10px] flex flex-col items-center gap-3 transition-colors hover:border-primary">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[24px]">park</span>
+<span class="font-label-md font-medium">Park</span>
+</div>
+<div class="bg-white p-6 border border-[#E3E7E4] rounded-[10px] flex flex-col items-center gap-3 transition-colors hover:border-primary">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[24px]">mosque</span>
+<span class="font-label-md font-medium">Mosque</span>
+</div>
+<div class="bg-white p-6 border border-[#E3E7E4] rounded-[10px] flex flex-col items-center gap-3 transition-colors hover:border-primary">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[24px]">shopping_basket</span>
+<span class="font-label-md font-medium">Market</span>
+</div>
+<div class="bg-white p-6 border border-[#E3E7E4] rounded-[10px] flex flex-col items-center gap-3 transition-colors hover:border-primary">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[24px]">security</span>
+<span class="font-label-md font-medium">Security</span>
+</div>
+<div class="bg-white p-6 border border-[#E3E7E4] rounded-[10px] flex flex-col items-center gap-3 transition-colors hover:border-primary">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[24px]">water_drop</span>
+<span class="font-label-md font-medium">Water supply</span>
+</div>
+<div class="bg-white p-6 border border-[#E3E7E4] rounded-[10px] flex flex-col items-center gap-3 transition-colors hover:border-primary">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[24px]">gas_meter</span>
+<span class="font-label-md font-medium">Sui gas</span>
+</div>
+</div>
+</div>
+<!-- FUTURE DEVELOPMENT TIMELINE -->
+<div class="bg-white p-8 border border-[#E3E7E4] rounded-lg">
+<h3 class="font-headline-sm mb-10 text-on-surface">Development Timeline</h3>
+<div class="relative pt-12 pb-8">
+<!-- Timeline Track -->
+<div class="absolute top-[48px] left-0 w-full h-[2px] bg-[#E3E7E4]"></div>
+<div class="absolute top-[48px] left-0 w-[66%] h-[2px] bg-[#0E5C4A]"></div>
+<div class="relative flex justify-between">
+<!-- Step 1 (Completed) -->
+<div class="flex flex-col items-center w-1/4">
+<span class="absolute top-[-36px] font-label-md text-primary font-bold">2020</span>
+<div class="w-4 h-4 bg-[#0E5C4A] rounded-full border-4 border-white shadow-[0_0_0_2px_#0E5C4A] z-10"></div>
+<p class="mt-6 text-center font-label-sm text-on-surface max-w-[120px]">Main Gate &amp; Road Network</p>
+</div>
+<!-- Step 2 (Completed) -->
+<div class="flex flex-col items-center w-1/4">
+<span class="absolute top-[-36px] font-label-md text-primary font-bold">2021</span>
+<div class="w-4 h-4 bg-[#0E5C4A] rounded-full border-4 border-white shadow-[0_0_0_2px_#0E5C4A] z-10"></div>
+<p class="mt-6 text-center font-label-sm text-on-surface max-w-[120px]">Phase A Possession</p>
+</div>
+<!-- Step 3 (Current) -->
+<div class="flex flex-col items-center w-1/4">
+<span class="absolute top-[-36px] font-label-md text-primary font-bold">2023</span>
+<div class="w-4 h-4 bg-[#0E5C4A] rounded-full border-4 border-white shadow-[0_0_0_2px_#0E5C4A] z-10"></div>
+<p class="mt-6 text-center font-label-sm font-semibold text-primary max-w-[120px]">Commercial Zone Completed</p>
+</div>
+<!-- Step 4 (Future) -->
+<div class="flex flex-col items-center w-1/4">
+<span class="absolute top-[-36px] font-label-md text-secondary">2025</span>
+<div class="w-4 h-4 bg-[#E3E7E4] rounded-full border-4 border-white shadow-[0_0_0_2px_#E3E7E4] z-10"></div>
+<p class="mt-6 text-center font-label-sm text-secondary max-w-[120px]">Public Hospital Opening</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: NEARBY PLACES -->
+<div class="lg:col-span-4">
+<div class="bg-white border border-[#E3E7E4] rounded-[10px] overflow-hidden">
+<div class="px-6 py-5 border-b border-[#E3E7E4] bg-surface-container-low">
+<h3 class="font-label-md font-bold uppercase tracking-widest text-primary">Nearby Landmarks</h3>
+</div>
+<div class="divide-y divide-[#E3E7E4]">
+<!-- Nearby Row 1 -->
+<div class="flex items-center justify-between px-6 h-[56px] hover:bg-surface-container-lowest transition-colors">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[20px]">local_hospital</span>
+<span class="font-body-md font-medium">City Hospital</span>
+</div>
+<span class="font-body-md tabular-nums text-secondary">1.2 km</span>
+</div>
+<!-- Nearby Row 2 -->
+<div class="flex items-center justify-between px-6 h-[56px] hover:bg-surface-container-lowest transition-colors">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[20px]">flight</span>
+<span class="font-body-md font-medium">International Airport</span>
+</div>
+<span class="font-body-md tabular-nums text-secondary">8.4 km</span>
+</div>
+<!-- Nearby Row 3 -->
+<div class="flex items-center justify-between px-6 h-[56px] hover:bg-surface-container-lowest transition-colors">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[20px]">school</span>
+<span class="font-body-md font-medium">Roots International</span>
+</div>
+<span class="font-body-md tabular-nums text-secondary">0.8 km</span>
+</div>
+<!-- Nearby Row 4 -->
+<div class="flex items-center justify-between px-6 h-[56px] hover:bg-surface-container-lowest transition-colors">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[20px]">shopping_bag</span>
+<span class="font-body-md font-medium">Giga Mall</span>
+</div>
+<span class="font-body-md tabular-nums text-secondary">2.5 km</span>
+</div>
+<!-- Nearby Row 5 -->
+<div class="flex items-center justify-between px-6 h-[56px] hover:bg-surface-container-lowest transition-colors">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#0E5C4A] text-[20px]">sports_cricket</span>
+<span class="font-body-md font-medium">Sports Complex</span>
+</div>
+<span class="font-body-md tabular-nums text-secondary">3.1 km</span>
+</div>
+</div>
+</div>
+<!-- ADHOC CTA CARD -->
+<div class="mt-6 p-6 bg-primary rounded-[10px] text-white">
+<h4 class="font-headline-sm mb-2 text-white">Verify Your Plot</h4>
+<p class="font-body-md opacity-80 mb-6 text-[14px]">Ensure your property records are synchronized with our official ledger.</p>
+<button class="w-full py-3 bg-white text-primary font-bold uppercase tracking-wider text-[12px] hover:bg-primary-fixed transition-colors">Get Verified Now</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- FOOTER -->
+<footer class="w-full bg-[#E3E7E4] mt-24 py-16 px-margin-desktop border-t-2 border-[#0F1720]/10">
+<div class="max-w-max-width mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+<div class="max-w-[400px]">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-primary text-2xl" style="font-variation-settings: 'FILL' 1;">domain</span>
+<h2 class="font-headline-sm text-primary">Rihaish</h2>
+</div>
+<p class="font-body-md text-secondary mb-8">Providing transparent land verification and society management solutions for institutional integrity in Pakistan's real estate sector.</p>
+<p class="font-label-sm text-secondary">© 2024 LandVerify Pakistan. All rights reserved. Verified Institutional Records.</p>
+</div>
+<div class="grid grid-cols-2 gap-x-16 gap-y-4">
+<a class="font-label-md text-secondary hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="font-label-md text-secondary hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="font-label-md text-secondary hover:text-primary transition-colors" href="#">Land Act Compliance</a>
+<a class="font-label-md text-secondary hover:text-primary transition-colors" href="#">Contact Support</a>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interactions for tab switching (mock)
+        document.querySelectorAll('button.font-medium').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('button.font-medium').forEach(b => {
+                    b.classList.remove('text-primary', 'border-b-2', 'border-[#0E5C4A]');
+                    b.classList.add('text-secondary');
+                });
+                btn.classList.remove('text-secondary');
+                btn.classList.add('text-primary', 'border-b-2', 'border-[#0E5C4A]');
+            });
+        });
+    </script>
+</body></html>

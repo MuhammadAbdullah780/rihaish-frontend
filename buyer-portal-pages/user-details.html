@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Buyer Profile | Rihaish Institutional Property Platform</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@600&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Source+Serif+4:wght@100..900&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary": "#ffffff",
+                        "on-primary-container": "#8dd2bb",
+                        "secondary-container": "#d9e3f0",
+                        "surface-container-low": "#eef4ff",
+                        "secondary": "#565f6a",
+                        "background": "#f8f9ff",
+                        "on-background": "#141c25",
+                        "primary": "#004334",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed-variant": "#70362c",
+                        "background-canvas": "#F6F7F6",
+                        "inverse-on-surface": "#e9f1fe",
+                        "surface-variant": "#dbe3f0",
+                        "surface-container-highest": "#dbe3f0",
+                        "on-primary-fixed": "#002018",
+                        "on-secondary-container": "#5b6570",
+                        "on-tertiary-container": "#ffb1a4",
+                        "on-surface-variant": "#3f4945",
+                        "on-primary": "#ffffff",
+                        "inverse-surface": "#29313b",
+                        "on-secondary-fixed": "#131d25",
+                        "secondary-fixed": "#d9e3f0",
+                        "track-neutral": "#E3E7E4",
+                        "surface-bright": "#f8f9ff",
+                        "tertiary": "#612a21",
+                        "stroke-institutional": "#0F1720",
+                        "surface": "#f8f9ff",
+                        "surface-container": "#e7eefc",
+                        "tertiary-fixed": "#ffdad4",
+                        "primary-fixed-dim": "#8fd4bd",
+                        "error-container": "#ffdad6",
+                        "secondary-fixed-dim": "#bdc7d4",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "tertiary-container": "#7d4036",
+                        "primary-container": "#0e5c4a",
+                        "surface-container-high": "#e1e9f6",
+                        "on-surface": "#141c25",
+                        "on-tertiary-fixed": "#390c06",
+                        "primary-fixed": "#aaf1d9",
+                        "on-tertiary": "#ffffff",
+                        "outline-variant": "#bfc9c3",
+                        "outline": "#6f7975",
+                        "surface-dim": "#d3dbe7",
+                        "tertiary-fixed-dim": "#ffb4a7",
+                        "inverse-primary": "#8fd4bd",
+                        "surface-tint": "#226a57",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed-variant": "#005140",
+                        "on-secondary-fixed-variant": "#3e4852"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "10px",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px",
+                        "unit": "4px",
+                        "max-width": "1280px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Inter"],
+                        "label-md": ["Inter"],
+                        "headline-md": ["\"Source Serif 4\""],
+                        "body-md": ["Inter"],
+                        "headline-sm": ["\"Source Serif 4\""],
+                        "label-sm": ["Inter"],
+                        "display-lg": ["\"Source Serif 4\""]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "500"}],
+                        "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "600"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: #F6F7F6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .tabular-nums {
+            font-variant-numeric: tabular-nums;
+        }
+        .cadastral-grid {
+            background-image: 
+                linear-gradient(to right, #E3E7E4 1px, transparent 1px),
+                linear-gradient(to bottom, #E3E7E4 1px, transparent 1px);
+            background-size: 32px 32px;
+            opacity: 0.2;
+            pointer-events: none;
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body class="font-body-md text-on-surface">
+<div class="cadastral-grid"></div>
+<!-- TopNavBar -->
+<header class="bg-surface-container-lowest sticky top-0 h-[72px] z-50 border-b-2 border-track-neutral">
+<div class="flex justify-between items-center w-full px-margin-desktop max-w-max-width mx-auto h-full">
+<div class="flex items-center gap-8">
+<span class="font-display-lg text-display-lg font-bold text-primary">Rihaish</span>
+<nav class="hidden md:flex gap-6">
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors" href="#">Marketplace</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors" href="#">Societies</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors" href="#">New Projects</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors" href="#">Insights</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors">notifications</button>
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors">favorite</button>
+</div>
+<!-- Profile Image with Active Ring -->
+<div class="w-10 h-10 rounded-full border-2 border-primary-container p-0.5 cursor-pointer">
+<img class="w-full h-full rounded-full object-cover" data-alt="A clean, professional headshot of a Middle Eastern male property buyer in his early 30s. He is wearing a crisp white linen shirt against a minimalist, high-key architectural background with soft shadows. The lighting is bright and natural, reflecting an institutional and trustworthy aesthetic in a modern light-mode interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZu4HeLr7nJCxz8eLo9OawcUiFQZbtDeLsdKAyONHK8EtYJLg1P3OMlDkhzktetY4JSy0JDnU5dpTPHygZHL6oPi_UouzYn0iYIFh_rYhCZyQGfr78gJXml_5GQmthsGCL9fkoE2djI3kj6qcZ_PyNS17o-Sl_6fjBejKaBJTdDc_Q_03F-9Ysr8LgNlmP6pI6OFbxWJ7bUYnntAwqKagF6_DVkubncmEfVVvg8biTu5CX4XWCyZ4c"/>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="relative z-10 w-full max-w-[640px] mx-auto pt-8 pb-20 px-4">
+<!-- Profile Edit Panel -->
+<section class="bg-white rounded-lg border border-track-neutral p-8 mb-6">
+<div class="flex items-center gap-6">
+<div class="relative w-20 h-20">
+<div class="w-20 h-20 rounded-full border border-track-neutral overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Close up of a professional male property buyer, Hassan Iqbal, with a friendly yet serious expression. The portrait is framed in a perfect circle, set against a blurred background of a modern, white-walled architectural office. The visual style is crisp, clean, and highly detailed, maintaining institutional minimalism." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgHXrHEmJufCxitWGxp_1-VND1z5w9s8A2t2w7fjMBNRWC1YKb-L3MzxP_wQ04kLrHF-5tj1aA794eniy7D2KLNmIH7TFgHIC2_Q05qypunymWizydeBnS-2AhtIsUz4ZkEdvwP1idiWltwhySeJByEO2TzOvlSLe3rVK7q5t1XBLGZKKFe_zzN9F_MEuzhY0Q9d610l7LGGISgErFUpyCSni0DKTUyKmoV4AwF2E3NJBv7uBcHU38"/>
+</div>
+<button class="absolute bottom-0 right-0 w-7 h-7 bg-white rounded-full border border-track-neutral flex items-center justify-center shadow-sm hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[16px] text-primary">photo_camera</span>
+</button>
+</div>
+<div>
+<h1 class="font-semibold text-[20px] text-stroke-institutional leading-tight mb-1">Hassan Iqbal</h1>
+<span class="inline-flex items-center px-3 py-0.5 rounded-full bg-[#E8F1ED] text-primary text-[12px] font-medium tracking-wide">Buyer</span>
+</div>
+</div>
+<div class="mt-6 pt-6 border-t border-track-neutral">
+<div class="mb-4">
+<label class="block text-[13px] text-secondary font-normal mb-1.5 ml-0.5">Full name</label>
+<input class="w-full h-12 px-4 rounded-lg border border-track-neutral bg-white text-on-surface focus:border-primary focus:ring-0 transition-colors" type="text" value="Hassan Iqbal"/>
+</div>
+<div class="flex gap-4 mb-6">
+<div class="flex-1">
+<label class="block text-[13px] text-secondary font-normal mb-1.5 ml-0.5">Phone number</label>
+<div class="relative">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 text-secondary font-medium tabular-nums">+92</span>
+<input class="w-full h-12 pl-14 pr-4 rounded-lg border border-track-neutral bg-white text-on-surface focus:border-primary focus:ring-0 transition-colors tabular-nums" type="text" value="300 123 4567"/>
+</div>
+</div>
+<div class="flex-1">
+<label class="block text-[13px] text-secondary font-normal mb-1.5 ml-0.5">Email</label>
+<input class="w-full h-12 px-4 rounded-lg border border-track-neutral bg-white text-on-surface focus:border-primary focus:ring-0 transition-colors" type="email" value="h.iqbal@gmail.com"/>
+</div>
+</div>
+<div class="flex justify-end">
+<button class="w-[280px] h-12 bg-primary text-white rounded-lg font-medium text-[15px] hover:opacity-90 active:scale-[0.98] transition-all">
+                        Save changes
+                    </button>
+</div>
+</div>
+</section>
+<!-- Settings List Panel -->
+<section class="bg-white rounded-lg border border-track-neutral overflow-hidden">
+<!-- List Items -->
+<button class="w-full h-[56px] px-5 flex items-center gap-4 hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-[20px] text-secondary">saved_search</span>
+<span class="flex-1 text-left font-normal text-[15px] text-stroke-institutional">Saved searches</span>
+<span class="material-symbols-outlined text-[16px] text-[#79838E] group-hover:translate-x-0.5 transition-transform">chevron_right</span>
+</button>
+<div class="mx-5 border-b border-track-neutral"></div>
+<button class="w-full h-[56px] px-5 flex items-center gap-4 hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-[20px] text-secondary">notifications_active</span>
+<span class="flex-1 text-left font-normal text-[15px] text-stroke-institutional">Notification preferences</span>
+<span class="material-symbols-outlined text-[16px] text-[#79838E] group-hover:translate-x-0.5 transition-transform">chevron_right</span>
+</button>
+<div class="mx-5 border-b border-track-neutral"></div>
+<button class="w-full h-[56px] px-5 flex items-center gap-4 hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-[20px] text-secondary">lock</span>
+<span class="flex-1 text-left font-normal text-[15px] text-stroke-institutional">Change password</span>
+<span class="material-symbols-outlined text-[16px] text-[#79838E] group-hover:translate-x-0.5 transition-transform">chevron_right</span>
+</button>
+<div class="mx-5 border-b border-track-neutral"></div>
+<button class="w-full h-[56px] px-5 flex items-center gap-4 hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-[20px] text-secondary">help</span>
+<span class="flex-1 text-left font-normal text-[15px] text-stroke-institutional">Help & support</span>
+<span class="material-symbols-outlined text-[16px] text-[#79838E] group-hover:translate-x-0.5 transition-transform">chevron_right</span>
+</button>
+<!-- Extra Spacer -->
+<div class="h-2 bg-surface-container-low"></div>
+<!-- Logout Row -->
+<div class="border-t border-track-neutral">
+<button class="w-full h-[56px] px-5 flex items-center gap-4 hover:bg-error-container/20 transition-colors group">
+<span class="material-symbols-outlined text-[20px] text-error">logout</span>
+<span class="flex-1 text-left font-medium text-[15px] text-error">Log out</span>
+</button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest w-full border-t-2 border-track-neutral mt-auto">
+<div class="w-full px-margin-desktop max-w-max-width mx-auto flex flex-col md:flex-row justify-between items-center py-8 gap-gutter">
+<span class="font-label-sm text-label-sm text-on-surface-variant">© 2024 Rihaish Institutional Property Platform. All rights reserved.</span>
+<div class="flex gap-6">
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Cadastral Data Source</a>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interaction for input fields
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach(input => {
+            input.addEventListener('focus', () => {
+                input.parentElement.querySelector('label')?.classList.add('text-primary');
+            });
+            input.addEventListener('blur', () => {
+                input.parentElement.querySelector('label')?.classList.remove('text-primary');
+            });
+        });
+    </script>
+</body></html>

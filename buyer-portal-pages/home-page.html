@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Rihaish - Buyer Home Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;1,8..60,600&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Source+Serif+4:wght@100..900&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-surface-variant": "#3f4945",
+                        "on-error": "#ffffff",
+                        "surface-container-high": "#e1e9f6",
+                        "outline": "#6f7975",
+                        "inverse-on-surface": "#e9f1fe",
+                        "surface-tint": "#226a57",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed": "#002018",
+                        "secondary-fixed-dim": "#bdc7d4",
+                        "background-canvas": "#F6F7F6",
+                        "tertiary-container": "#7d4036",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container": "#e7eefc",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed-variant": "#70362c",
+                        "on-secondary-fixed": "#131d25",
+                        "secondary-container": "#d9e3f0",
+                        "on-primary-fixed-variant": "#005140",
+                        "secondary-fixed": "#d9e3f0",
+                        "on-tertiary-fixed": "#390c06",
+                        "primary-fixed-dim": "#8fd4bd",
+                        "tertiary": "#612a21",
+                        "primary": "#004334",
+                        "surface-variant": "#dbe3f0",
+                        "primary-fixed": "#aaf1d9",
+                        "secondary": "#565f6a",
+                        "on-tertiary-container": "#ffb1a4",
+                        "tertiary-fixed": "#ffdad4",
+                        "stroke-institutional": "#0F1720",
+                        "tertiary-fixed-dim": "#ffb4a7",
+                        "on-secondary": "#ffffff",
+                        "on-surface": "#141c25",
+                        "primary-container": "#0e5c4a",
+                        "track-neutral": "#E3E7E4",
+                        "inverse-primary": "#8fd4bd",
+                        "surface-container-highest": "#dbe3f0",
+                        "on-secondary-fixed-variant": "#3e4852",
+                        "inverse-surface": "#29313b",
+                        "surface-bright": "#f8f9ff",
+                        "on-primary": "#ffffff",
+                        "surface": "#f8f9ff",
+                        "surface-dim": "#d3dbe7",
+                        "on-error-container": "#93000a",
+                        "surface-container-low": "#eef4ff",
+                        "on-background": "#141c25",
+                        "on-secondary-container": "#5b6570",
+                        "on-primary-container": "#8dd2bb",
+                        "background": "#f8f9ff",
+                        "error-container": "#ffdad6",
+                        "outline-variant": "#bfc9c3"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "10px",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    spacing: {
+                        "margin-desktop": "64px",
+                        "max-width": "1280px",
+                        "unit": "4px",
+                        "gutter": "24px",
+                        "margin-mobile": "16px"
+                    },
+                    fontFamily: {
+                        "headline-sm": ["\"Source Serif 4\""],
+                        "body-lg": ["Inter"],
+                        "headline-md": ["\"Source Serif 4\""],
+                        "display-lg-mobile": ["\"Source Serif 4\""],
+                        "body-md": ["Inter"],
+                        "display-lg": ["\"Source Serif 4\""],
+                        "label-md": ["Inter"],
+                        "label-sm": ["Inter"]
+                    },
+                    fontSize: {
+                        "headline-sm": ["24px", { lineHeight: "32px", fontWeight: "600" }],
+                        "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+                        "headline-md": ["32px", { lineHeight: "40px", fontWeight: "600" }],
+                        "display-lg-mobile": ["32px", { lineHeight: "40px", letterSpacing: "-0.01em", fontWeight: "600" }],
+                        "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+                        "display-lg": ["48px", { lineHeight: "56px", letterSpacing: "-0.02em", fontWeight: "600" }],
+                        "label-md": ["14px", { lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "500" }],
+                        "label-sm": ["12px", { lineHeight: "16px", letterSpacing: "0.05em", fontWeight: "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .scrim-gradient {
+            background: linear-gradient(to top, rgba(15, 23, 32, 0.8) 0%, rgba(15, 23, 32, 0) 60%);
+        }
+        ::-webkit-scrollbar {
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F6F7F6;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #E3E7E4;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-background-canvas font-body-md text-on-surface">
+<!-- TOP BAR -->
+<header class="w-full bg-white border-b border-track-neutral h-[72px] sticky top-0 z-50">
+<div class="max-w-[1280px] mx-auto px-12 h-full flex items-center justify-between">
+<div class="flex items-center gap-2 shrink-0">
+<img alt="Rihaish Logo" class="w-10 h-10 object-contain" src="https://lh3.googleusercontent.com/aida/AP1WRLvvAdNq2B2Lt4mOeyAeZKlIu0ckS_fqwcijfgMdlTL43ysCpLO2Hy-kZpHBTMOaTX6JuryXHhPSTLg7YYjy9rZb7C2E30ou1EEbefOpBQbNa2I04nVYmExXUtN8JXyvLEOo9tpIN8lkJYN2oLWnUrvgKvbvdZLZtG0H-FN1K0NbMVA38mc9qI6hzqn4GypRX9ZTQtavIBVXCRiBn_xG6wSVMITVfM6ti00t8PHKtObOmunIk_5mIILKpO8"/>
+<span class="font-headline-sm text-[20px] text-stroke-institutional leading-none">rihaish</span>
+</div>
+<div class="flex-1 max-w-[420px] mx-8">
+<div class="relative group">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-[18px] text-[#79838E]">search</span>
+<input class="w-full h-11 bg-background-canvas border border-track-neutral rounded-lg pl-10 pr-4 text-[14px] text-on-surface placeholder-[#79838E] focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-all" placeholder="Search by city, society or plot size" type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-6 shrink-0">
+<button class="text-[#4A5560] hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[22px]">favorite</span>
+</button>
+<button class="text-[#4A5560] relative hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[22px]">notifications</span>
+<span class="absolute top-0 right-0 w-2 h-2 bg-[#B3261E] rounded-full border border-white"></span>
+</button>
+<div class="w-8 h-8 rounded-full border border-track-neutral overflow-hidden cursor-pointer active:scale-95 transition-transform">
+<img class="w-full h-full object-cover" data-alt="A professional headshot of a middle-aged man with short dark hair and a friendly smile, photographed in soft natural light against a neutral background. The style is clean, modern, and corporate, fitting an institutional real estate platform." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMa7IJzKt7AGVkpXRu1JzUSYK5Mmw_HMQH2SpwDg4H7wc4i4ANzHY8OlfdzEQaaD9uXW052kywkfkB0QzafsU_xfQrHvcmZ3z3ESIFP8JujrvfkQq2Y0uhgqQ6_DZ9ZNnm8X5TeIMpwsJZwqebI6tJuLj6FyywQXvT_zMxnws6aK9w1ESKHdDuA3dgJ6JWtSheu9euGNoHHXMIcSCe4FyMdPUFeiCht3Qr99Zzd0LI8RzCjriKzaWv"/>
+</div>
+</div>
+</div>
+</header>
+<!-- BODY CONTENT -->
+<main class="max-w-[1280px] mx-auto px-12 pt-10 pb-20">
+<!-- Filter Category Chips -->
+<div class="flex items-center gap-3 overflow-x-auto pb-2">
+<button class="px-5 py-2 rounded-full bg-[#E8F1ED] text-[#0E5C4A] font-label-md text-[13px] border border-transparent whitespace-nowrap">All</button>
+<button class="px-5 py-2 rounded-full bg-white text-[#4A5560] font-label-md text-[13px] border border-track-neutral hover:border-primary transition-colors whitespace-nowrap">Houses</button>
+<button class="px-5 py-2 rounded-full bg-white text-[#4A5560] font-label-md text-[13px] border border-track-neutral hover:border-primary transition-colors whitespace-nowrap">Plots</button>
+<button class="px-5 py-2 rounded-full bg-white text-[#4A5560] font-label-md text-[13px] border border-track-neutral hover:border-primary transition-colors whitespace-nowrap">Apartments</button>
+<button class="px-5 py-2 rounded-full bg-white text-[#4A5560] font-label-md text-[13px] border border-track-neutral hover:border-primary transition-colors whitespace-nowrap">Commercial</button>
+<button class="px-5 py-2 rounded-full bg-white text-[#4A5560] font-label-md text-[13px] border border-track-neutral hover:border-primary transition-colors whitespace-nowrap">Farmhouses</button>
+</div>
+<!-- Featured Properties Section -->
+<section class="mt-8">
+<div class="flex items-center justify-between mb-5">
+<h2 class="font-bold text-[26px] text-stroke-institutional font-body-lg">Featured properties</h2>
+<a class="text-[#0E5C4A] font-label-md text-[14px] hover:underline transition-all" href="#">View all</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="w-full max-w-[280px] bg-white rounded-lg border border-track-neutral overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer group">
+<div class="relative aspect-[3/2] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A beautiful, contemporary two-story house in Lahore, Pakistan. The architecture features clean lines, large glass windows, and a mix of white plaster and grey stone cladding. A manicured green lawn and tropical plants are visible in the foreground under a clear blue sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb0lwPZJkt18LWpBo-E_hO-lEPKVIb0qoEYuddf1BuOJFy5aYVUgX7oJ3hTm34ZZjMjEKfsVSrREOrQprjxVQZW7MCXHiptgwgbonjHQg7wkQxZkqJ6_gO7G2qLRzg-RbTJILN4CzdWV5rtso-xawWNXFXFNV3UAyVRDcJkGWp1V8f0SnCNsJuTNwqXy-hRCrdw1jLABiTlVGRw2XEIxjw0aAUUs90GdjX6AzycF8Bwua96ZfGA5Ge"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-3 py-1 rounded-full text-[12px] font-semibold">Verified</div>
+<button class="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm text-[#4A5560] hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-4">
+<div class="font-bold text-[20px] text-stroke-institutional tabular-nums">Rs 2.4 Crore</div>
+<div class="flex items-center gap-1 text-[#79838E] text-[13px] mt-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                            DHA Phase 6, Lahore
+                        </div>
+<div class="flex items-center gap-2 mt-3 text-[#4A5560] text-[12px]">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bed</span>
+                                5 Beds
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bathtub</span>
+                                6 Baths
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">square_foot</span>
+                                10 Marla
+                            </div>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="w-full max-w-[280px] bg-white rounded-lg border border-track-neutral overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer group">
+<div class="relative aspect-[3/2] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A luxurious modern villa with stone textures and wood paneling in Bahria Town. The property has a spacious driveway with a luxury SUV parked. The lighting is bright midday sun, highlighting the architectural details and lush palm trees." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPctgQyskgZW5cjiJ1EuXQ8OXlb_eqU1tItFmXn1nr1vwLFdeDM0A3Rzdu71tAG0FhE1bZtCT8irhvf5UVZu05wA7ns3KXLH5zv3Gy95bRuBz9Q_g8j0a5K2lnNZtD86ucgoNM_zB5CztbAla5Wnp1B-P72VzL4gDW5jfrX3vW7LJPe0VXA_qPdGqR49D1MAZuKuviM4PP2kW7rgmHpgXZ2Udpj7rkAlA4sZnj7bJOfRpiIdRd3er_"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-3 py-1 rounded-full text-[12px] font-semibold">Verified</div>
+<button class="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm text-[#4A5560] hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-4">
+<div class="font-bold text-[20px] text-stroke-institutional tabular-nums">Rs 4.8 Crore</div>
+<div class="flex items-center gap-1 text-[#79838E] text-[13px] mt-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                            Bahria Town Phase 8, Rawalpindi
+                        </div>
+<div class="flex items-center gap-2 mt-3 text-[#4A5560] text-[12px]">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bed</span>
+                                6 Beds
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bathtub</span>
+                                7 Baths
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">square_foot</span>
+                                1 Kanal
+                            </div>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="w-full max-w-[280px] bg-white rounded-lg border border-track-neutral overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer group">
+<div class="relative aspect-[3/2] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="An elegant residential street in Islamabad, showing multiple modern houses with flat roofs, balcony glass railings, and stone-clad facades. The street is wide and clean, with parked cars and mature trees in a quiet upscale neighborhood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoWIBvMBy8U6IoBja0nZbnQM5vbU-ACe9abgMrKkuQ89dQA1PJzOPUOdgCk17oXY14AVFAJbiBjAstfyOuEhP7VwkohR2HM9Ab0rl0O48XJW2MURAUf8hc9azbplbA2ieBST_dpoeFSRJx3kC-iDMbgHX8IgMxE94GBnJacTRVnxYbgkJh6uIKyj0J4jY8E4IPdSx6-nf5pCNwhvgBmUtBRP1Wg5rKBIosjx67pIVvT9xkAlg93xGL"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-3 py-1 rounded-full text-[12px] font-semibold">Verified</div>
+<button class="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm text-[#4A5560] hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-4">
+<div class="font-bold text-[20px] text-stroke-institutional tabular-nums">Rs 1.9 Crore</div>
+<div class="flex items-center gap-1 text-[#79838E] text-[13px] mt-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                            Gulberg Residencia, Islamabad
+                        </div>
+<div class="flex items-center gap-2 mt-3 text-[#4A5560] text-[12px]">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bed</span>
+                                4 Beds
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bathtub</span>
+                                5 Baths
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">square_foot</span>
+                                7 Marla
+                            </div>
+</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="w-full max-w-[280px] bg-white rounded-lg border border-track-neutral overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer group">
+<div class="relative aspect-[3/2] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A newly constructed boutique apartment building in Karachi with a minimalist design. The facade features dark metal accents against light grey concrete. Large windows reflect the afternoon sun, suggesting a modern high-end living environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9WFIo8jzz7zROHxUD2Rp9kAZhEDigLOZFG37KO5PVPU-TsZ1E9-vy_Uuyj7JDJZtTTj3LR4wCUocnXylZ135tMMS6yF-3e0DNRhHNgSkvQq3u6N7EC3U8usH-vVh0mAsYl3bkc9l2XZNcDP2gG68XZ4HutcjUftIaC_4GmUjkPEYMF59t4V1SNSoG7Lo4xm-mtonUMm4pFQtWkpv12fDh5tTX_8JGN1Dcw7GaIHumG8QJQhfiA7Wi"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-3 py-1 rounded-full text-[12px] font-semibold">Verified</div>
+<button class="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm text-[#4A5560] hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-4">
+<div class="font-bold text-[20px] text-stroke-institutional tabular-nums">Rs 3.5 Crore</div>
+<div class="flex items-center gap-1 text-[#79838E] text-[13px] mt-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                            Clifton Block 5, Karachi
+                        </div>
+<div class="flex items-center gap-2 mt-3 text-[#4A5560] text-[12px]">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bed</span>
+                                3 Beds
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bathtub</span>
+                                4 Baths
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">apartment</span>
+                                Apartment
+                            </div>
+</div>
+</div>
+</div>
+<!-- Repeating cards to fill 8 (simplified for generation) -->
+<!-- Card 5 -->
+<div class="w-full max-w-[280px] bg-white rounded-lg border border-track-neutral overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer group">
+<div class="relative aspect-[3/2] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A sleek house with dark slate stone cladding and white walls in DHA Lahore. A Toyota Hilux is parked in the car porch. The sky is a brilliant clear blue, and the lighting is crisp and detailed." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAc1oERGNQoU4zBFMPWVctrXoewQGqRUGqpoAqeqivlmEj6HOY-4ahnpTmMI0NY6mlJxh40lRqO2P2RT95XRKNVEG4_ptINY_fP4qv5Q0oI01NXQtcZhletmcaq0-e3WokwxWpRkOJPBktS1Y1vw78knG3MMRaVRBszQ6sVwpAiO68XkkVGdHlfRjtltxpISDeVgozkooQhmTybENx5bYmYNdj0QfW0gkazQcsS_Tcs1aczfZsS1two"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-3 py-1 rounded-full text-[12px] font-semibold">Verified</div>
+<button class="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm text-[#4A5560] hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-4">
+<div class="font-bold text-[20px] text-stroke-institutional tabular-nums">Rs 5.2 Crore</div>
+<div class="flex items-center gap-1 text-[#79838E] text-[13px] mt-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                            State Life Phase 1, Lahore
+                        </div>
+<div class="flex items-center gap-2 mt-3 text-[#4A5560] text-[12px]">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bed</span>
+                                5 Beds
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bathtub</span>
+                                5 Baths
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">square_foot</span>
+                                1 Kanal
+                            </div>
+</div>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="w-full max-w-[280px] bg-white rounded-lg border border-track-neutral overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer group">
+<div class="relative aspect-[3/2] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A clean paved street view in a high-end society with rows of uniform grey and white modern houses. Green palm trees line the sidewalks, and the atmosphere is serene and orderly." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_aabJyuTY2R1B_VFW2tY_iS8Ysw7leFMVCCz1kyq7XGJsr_GbihnmKQw9AjEy3oqcUSvZPtAHNfBCc0BW2y1wXMSvxNIWtfzbeoGOL6Lv6wldP4iVj7_aR9LYU9hcyX5kZBgO4uygyiiCb682hE9P3iCfjLy-r1CEiFvS7fAQWl_IQoo7WIbV49QM6aPKX9uSb_dq2P3OW524tr1XLcYdNBO2jKXZbhIBQ2Ml-NN4hE55OHQx4ROJ"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-3 py-1 rounded-full text-[12px] font-semibold">Verified</div>
+<button class="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm text-[#4A5560] hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-4">
+<div class="font-bold text-[20px] text-stroke-institutional tabular-nums">Rs 1.1 Crore</div>
+<div class="flex items-center gap-1 text-[#79838E] text-[13px] mt-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                            Emaar Canyon Views, Islamabad
+                        </div>
+<div class="flex items-center gap-2 mt-3 text-[#4A5560] text-[12px]">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bed</span>
+                                2 Beds
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bathtub</span>
+                                2 Baths
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">apartment</span>
+                                Studio
+                            </div>
+</div>
+</div>
+</div>
+<!-- Card 7 -->
+<div class="w-full max-w-[280px] bg-white rounded-lg border border-track-neutral overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer group">
+<div class="relative aspect-[3/2] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A wide angle view of a modern luxury property in Karachi during the magic hour. The architectural lighting glows from under the balconies and within the interiors, reflecting off a polished grey stone driveway." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBPs1UO2qyIXJGWeeil6DWQwua7G_rNrpDjNycIA96nOWJttWB9FQIAtx6eiHm0Vq9MKeZnq947EP71M0ICSpK9Qj_rvW7ZLmCggl9dl0KIPJILTrGOkES6QPxvmt7zlRcC0Gubz-ePIhyVybKDi9LHXBoOo9z2M2vUKlvmveipW4ivz2vcUgnOdCqzXb0CMHzwBaS6PT9VaGaUkSzfXsdlSXzi7k49tx1NWGp7JTOrxXZhhn-Adjt"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-3 py-1 rounded-full text-[12px] font-semibold">Verified</div>
+<button class="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm text-[#4A5560] hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-4">
+<div class="font-bold text-[20px] text-stroke-institutional tabular-nums">Rs 7.5 Crore</div>
+<div class="flex items-center gap-1 text-[#79838E] text-[13px] mt-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                            DHA Phase 8, Karachi
+                        </div>
+<div class="flex items-center gap-2 mt-3 text-[#4A5560] text-[12px]">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bed</span>
+                                6 Beds
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bathtub</span>
+                                6 Baths
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">square_foot</span>
+                                2 Kanal
+                            </div>
+</div>
+</div>
+</div>
+<!-- Card 8 -->
+<div class="w-full max-w-[280px] bg-white rounded-lg border border-track-neutral overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer group">
+<div class="relative aspect-[3/2] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A minimalist grey stone house facade with wooden accents and large pivot door. The setting is a bright sunny day with high contrast shadows. Palm trees and lush landscaping frame the architectural masterpiece." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsd5Bh0rOqaKMstPnO_isJ3Z0qg0G-ofXwpCZSHXQ1kQm9_8TrudEBSQQYC19638Txw0UFAcFAN4D-BK-Vjfn0nuxRzh__h2fUXFtIrYvwM0o90Fx7g2QJhfQrf6pICRPP1cspvEB72pAswNx2RrUDGC1QBFsHwo-eAuacCYhBS0WhX84Yt_Ye3rnq8cfitQqsVZZLRk4fGZR63xmnhedxVQq5EeX5OARJs59NnmRyn9CRQKU2vJzZ"/>
+<div class="absolute top-3 left-3 bg-[#E8F1ED] text-[#1E7F4F] px-3 py-1 rounded-full text-[12px] font-semibold">Verified</div>
+<button class="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm text-[#4A5560] hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-4">
+<div class="font-bold text-[20px] text-stroke-institutional tabular-nums">Rs 3.2 Crore</div>
+<div class="flex items-center gap-1 text-[#79838E] text-[13px] mt-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                            Lake City, Lahore
+                        </div>
+<div class="flex items-center gap-2 mt-3 text-[#4A5560] text-[12px]">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bed</span>
+                                4 Beds
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bathtub</span>
+                                4 Baths
+                            </div>
+<span class="text-track-neutral">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">square_foot</span>
+                                12 Marla
+                            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trending Societies Section -->
+<section class="mt-10">
+<h2 class="font-bold text-[26px] text-stroke-institutional font-body-lg mb-5">Trending societies</h2>
+<div class="flex gap-6 overflow-x-auto pb-4 -mx-2 px-2 scroll-smooth">
+<!-- Society 1 -->
+<div class="relative min-w-[320px] h-[200px] rounded-lg overflow-hidden group cursor-pointer shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A majestic panoramic view of Bahria Town Rawalpindi, showing a massive residential master plan with organized blocks, green parks, and the iconic Eiffel Tower replica in the distance under a clear sunny sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4g-YR0e9qFRP0TGQulf_6AjOoSZZVF3SGYAFtEUMn85bLTcDAsjZ0Gmpm-MerUHBOCfXT5eZpxhg3ZE1gLH6xCLu1ifzsxwsggyY_rHC2Wknspp7WNZnSxYaBmZPYWqpTltZpH4B2aJSYvJF7DLxT_TzA1-osmiIBZzkZQ75M8b7MluhkOOpC6S1R4H02-imuMWGdCNP5SKMj-qSyoWeFQC0gC3GD5MjRsZjHuPDgm1R7MP_WjaQN"/>
+<div class="absolute inset-0 scrim-gradient"></div>
+<div class="absolute bottom-4 left-4 text-white">
+<div class="font-semibold text-[18px] leading-tight">Bahria Town</div>
+<div class="text-[13px] opacity-90">Phase 8 - 1,200 plots</div>
+</div>
+</div>
+<!-- Society 2 -->
+<div class="relative min-w-[320px] h-[200px] rounded-lg overflow-hidden group cursor-pointer shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="An aerial view of DHA Phase 6 Lahore, characterized by its grid-like structure, modern villas, wide boulevards, and extensive green landscaping. The lighting is early morning, casting long soft shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqt-R9p-77tlb2880zPH4-1OiIPG3tOpBtDGE2Eah-psippm4GsNlNPw_q9CUQHoCJCIdeCNIC6Yy0t5Iykfqf_VwjzhaVyLM2kePS5h5yV73FaUVwQsvsvBYtrn0ZzlurLjoRkVbDwzw7bFMaoBS7vPjxHWWSpKqSBkViqEGHAA3D4Y7X9p05iSU65YhedzaptiLkUbqOD_8FBefMl30Ge_4ylqDuJCEKsE8z7sG6XT9KpVzW0J-P"/>
+<div class="absolute inset-0 scrim-gradient"></div>
+<div class="absolute bottom-4 left-4 text-white">
+<div class="font-semibold text-[18px] leading-tight">DHA Lahore</div>
+<div class="text-[13px] opacity-90">Phase 6 & 7 - High Demand</div>
+</div>
+</div>
+<!-- Society 3 -->
+<div class="relative min-w-[320px] h-[200px] rounded-lg overflow-hidden group cursor-pointer shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A beautiful sunset view over Gulberg Islamabad, featuring the hilly terrain and a mixture of residential plots and commercial centers. The sky is orange and purple, highlighting the upscale nature of the area." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0Uen2du8-Ld_9BB08XBcTKxuP3QMpg--s9U9m5znPYnub7npSRKI95xKp8tYd6nKaZM2UaAS-I-K7H0k_wNSqXG0ot1Wd2-3JJAYce6v3Z7x01YZ7rC6sr4YeZwj3b1TNRvKhQtZHQaWa4xYIDVBJjbkj1k4hMRK4kvjBnMe0vPO9JHc-Xzf-Uzh7NjE2vIrh71Z8CbsOua5F_rD3GH18P_6QNTuk7UUacj95Un_Rjz19745AeIZq"/>
+<div class="absolute inset-0 scrim-gradient"></div>
+<div class="absolute bottom-4 left-4 text-white">
+<div class="font-semibold text-[18px] leading-tight">Gulberg Greens</div>
+<div class="text-[13px] opacity-90">Farmhouses & Residential</div>
+</div>
+</div>
+<!-- Society 4 -->
+<div class="relative min-w-[320px] h-[200px] rounded-lg overflow-hidden group cursor-pointer shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="The sprawling coastal landscape of DHA City Karachi, showing the massive master-planned infrastructure, wide roads, and ongoing construction against the arid but modern backdrop of the region." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrUAOP7gPX8r4VTwZGBTj8RQFr_5N78La8hr50-nIlaE_ZE7ni6slpLu4bFriOStPjGTjO1Vthdh1X3g-1ncvHXA5mDRI4hhlX1w2iYOAX6-N4Euowk4Fhz-d3UaxCe3cShEw2O7gaIRXV98mZXd8IhOIP2teFT9pcCu3hcOsfPEZAh6dNuaNyzuZh3PMXGPbZzkVeWCUpm6b70E2gZnHDZHdpjDXXp8gmRV9six4gd1AiBkxiyox4"/>
+<div class="absolute inset-0 scrim-gradient"></div>
+<div class="absolute bottom-4 left-4 text-white">
+<div class="font-semibold text-[18px] leading-tight">DHA City</div>
+<div class="text-[13px] opacity-90">Sector 1 - Developing Fast</div>
+</div>
+</div>
+<!-- Society 5 -->
+<div class="relative min-w-[320px] h-[200px] rounded-lg overflow-hidden group cursor-pointer shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A lush green view of Lake City Lahore, featuring its championship golf course and Mediterranean style villas surrounding a large artificial lake. The atmosphere is peaceful and exclusive." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7E_aGmj5kpJ_4EalMaVLXfram-38VUW2Yo0DKh--wxEs4N-R4DHchBIV3vO4vitF-GjtKUtoHfxDTN8WiqYzAQKfVE1coQw1w6DWJG6yV_EjiZwQVsSZyJzjQau7wEl7sI1G_hVg5iVEfVIRBcFo63F9k0Y7dkuiwvk4faDXYN1CL-gMeGZEDD1ln5odVi8gs-sqogwYXT8N1-s6uV-L4I_Kox14J1Wwwz0DGNvrbA1y0dU-j1pFB"/>
+<div class="absolute inset-0 scrim-gradient"></div>
+<div class="absolute bottom-4 left-4 text-white">
+<div class="font-semibold text-[18px] leading-tight">Lake City</div>
+<div class="text-[13px] opacity-90">Golf View Plots</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<script>
+        // Micro-interactions
+        document.querySelectorAll('button, a').forEach(el => {
+            el.addEventListener('click', function(e) {
+                if (this.tagName === 'A' && this.getAttribute('href') === '#') e.preventDefault();
+                this.classList.add('active:scale-95');
+                setTimeout(() => this.classList.remove('active:scale-95'), 150);
+            });
+        });
+
+        // Horizontal scroll with mouse wheel for societies section
+        const scrollContainer = document.querySelector('.scroll-smooth');
+        scrollContainer.addEventListener('wheel', (evt) => {
+            evt.preventDefault();
+            scrollContainer.scrollLeft += evt.deltaY;
+        });
+    </script>
+</body></html>
